@@ -46,7 +46,7 @@ BUILD_DIR = build
 # source
 ######################################
 # C sources
-C_sSOURCES = \
+C_SOURCES = \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
@@ -73,7 +73,8 @@ Src/tim.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
-Src/spi.c  
+Src/spi.c \
+Src/syscalls.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -91,11 +92,11 @@ PERIFLIB_SOURCES =
 #######################################
 BINPATH = 
 PREFIX = arm-none-eabi-
-CC = $(BINPATH)/$(PREFIX)gcc
-AS = $(BINPATH)/$(PREFIX)gcc -x assembler-with-cpp
-CP = $(BINPATH)/$(PREFIX)objcopy
-AR = $(BINPATH)/$(PREFIX)ar
-SZ = $(BINPATH)/$(PREFIX)size
+CC = $(PREFIX)gcc
+AS = $(PREFIX)gcc -x assembler-with-cpp
+CP = $(PREFIX)objcopy
+AR = $(PREFIX)ar
+SZ = $(PREFIX)size
 HEX = $(CP) -O ihex
 BIN = $(CP) -O binary -S
  
@@ -159,7 +160,7 @@ LDSCRIPT = STM32F405RGTx_FLASH.ld
 # libraries
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
-LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections -u _printf_float
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
