@@ -114,6 +114,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    ktr_LED(1,Green);
+    HAL_Delay(1000);
+    ktr_LED(1,Red);
+    HAL_Delay(1000);
+    ktr_LED(1,Blue);
+    HAL_Delay(1000);
+    ktr_LED(2,OFF);
+    ktr_LED(3,OFF);
+    ktr_LED(4,OFF);
+    ktr_LED(5,OFF);
+
 
   /* USER CODE END WHILE */
 
