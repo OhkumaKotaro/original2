@@ -54,12 +54,22 @@
 
 /* USER CODE BEGIN Private defines */
 
+//関数 LED のstateの値
+#define ON 1
+#define OFF 0
+#define Red 1
+#define Green 2
+#define Blue 3
+#define Magenta 4   //赤紫
+#define Cyan 5  //空色
+#define Yellow 6
+#define White 7
 /* USER CODE END Private defines */
 
 void MX_GPIO_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-
+void ktr_LED(int num ,int state);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

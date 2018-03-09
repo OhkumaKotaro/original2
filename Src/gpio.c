@@ -126,7 +126,79 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
+void ktr_LED(int num ,int state){
+  switch(num){
+    case 1:
+    switch(state){
+      case 0:
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_SET);
+      break;
 
+      case 1://Red
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_SET);
+      break;
+
+      case 2://Green
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_SET);
+      break;
+
+      case 3://Blue
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_RESET);
+      break;
+
+      case 4:
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_RESET);
+      break;
+
+      case 5:
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_SET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_RESET);
+      break;
+
+      case 6:
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_SET);
+      break;
+
+      case 7:
+      HAL_GPIO_WritePin(led4_GPIO_Port,led4_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led5_GPIO_Port,led5_Pin,GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_RESET);
+      break;
+
+    }
+    break;
+
+    case 2:
+    HAL_GPIO_WritePin(led1_GPIO_Port,led1_Pin,GPIO_PIN_SET);
+    break;
+
+    case 3:
+    HAL_GPIO_WritePin(led0_GPIO_Port,led0_Pin,GPIO_PIN_SET);
+    break;
+
+    case 4:
+    HAL_GPIO_WritePin(led3_GPIO_Port,led3_Pin,GPIO_PIN_SET);
+    break;
+
+    case 5:
+    HAL_GPIO_WritePin(led2_GPIO_Port,led2_Pin,GPIO_PIN_SET);
+    break;
+
+  }
+}
 /* USER CODE END 2 */
 
 /**

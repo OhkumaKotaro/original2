@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           (##) NVIC configuration if you need to use interrupt process
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****               (+++) Configure the SPIx interrupt priority
   32:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****               (+++) Enable the NVIC SPI IRQ handle
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 2
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 2
 
 
   33:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           (##) DMA Configuration if you need to use DMA process
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     |         |     Polling    | Fpclk/2  | Fpclk/4  |     NA    |    NA    | Fpclk/2   | Fpclk/64 
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     |         |----------------|----------|----------|-----------|----------|-----------|----------
   89:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     |    T    |     Interrupt  | Fpclk/2  | Fpclk/4  |     NA    |    NA    | Fpclk/2   | Fpclk/64 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 3
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 3
 
 
   90:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     |    X    |----------------|----------|----------|-----------|----------|-----------|----------
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  144:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
  145:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
  146:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 4
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 4
 
 
  147:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  201:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_2linesRxISR_16BIT(struct __SPI_HandleTypeDef *hspi);
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
  203:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_RxISR_8BITCRC(struct __SPI_HandleTypeDef *hspi);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 5
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 5
 
 
  204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_RxISR_16BITCRC(struct __SPI_HandleTypeDef *hspi);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *         in the SPI_InitTypeDef and initialize the associated handle.
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi: pointer to a SPI_HandleTypeDef structure that contains
  260:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 6
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 6
 
 
  261:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval HAL status
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Configure : NSS management */
  317:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   WRITE_REG(hspi->Instance->CR2, (((hspi->Init.NSS >> 16U) & SPI_CR2_SSOE) | hspi->Init.TIMode));
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 7
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 7
 
 
  318:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  373:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
  374:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief  Initialize the SPI MSP.
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 8
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 8
 
 
  375:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi: pointer to a SPI_HandleTypeDef structure that contains
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             The HAL_SPI_TxCpltCallback(), HAL_SPI_RxCpltCallback() and HAL_SPI_TxRxCpltCallback() u
  430:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             will be executed respectively at the end of the transmit or Receive process
  431:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             The HAL_SPI_ErrorCallback()user callback will be executed when a communication error is
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 9
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 9
 
 
  432:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxISR       = NULL;
  487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxISR       = NULL;
  488:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 10
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 10
 
 
  489:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Configure communication direction : 1Line */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if((hspi->Init.Mode == SPI_MODE_SLAVE)|| (hspi->TxXferCount == 0x01))
  544:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  545:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       *((__IO uint8_t*)&hspi->Instance->DR) = (*pData);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 11
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 11
 
 
  546:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       pData += sizeof(uint8_t);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  600:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_ERROR;
  601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  602:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 12
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 12
 
 
  603:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** error:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount = Size;
  658:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  659:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /*Init field not used in handle to zero */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 13
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 13
 
 
  660:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)NULL;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  714:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   else
  715:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  716:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Transfer loop */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 14
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 14
 
 
  717:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     while(hspi->RxXferCount > 0U)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  772:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Read CRC to Flush DR and RXNE flag */
  773:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     tmpreg = hspi->Instance->DR;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 15
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 15
 
 
  774:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* To avoid GCC warning */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  828:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_DIRECTION_2LINES(hspi->Init.Direction));
  829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  830:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Process Locked */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 16
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 16
 
 
  831:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_LOCK(hspi);
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  885:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Transmit and Receive data in 16 Bit mode */
  887:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if(hspi->Init.DataSize == SPI_DATASIZE_16BIT)
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 17
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 17
 
 
  888:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       /* check TXE flag */
  943:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       if(txallowed && (hspi->TxXferCount > 0U) && (__HAL_SPI_GET_FLAG(hspi, SPI_FLAG_TXE)))
  944:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 18
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 18
 
 
  945:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         *(__IO uint8_t *)&hspi->Instance->DR = (*pTxData++);
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1000:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_ERROR;
 1001:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 19
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 19
 
 
 1002:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1056:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1057:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_BUSY;
 1058:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 20
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 20
 
 
 1059:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1113:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
 1114:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
 1115:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 21
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 21
 
 
 1116:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** error :
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1170:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1171:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->RxISR = SPI_RxISR_16BIT;
 1172:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 22
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 22
 
 
 1173:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   else
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1227:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_DIRECTION_2LINES(hspi->Init.Direction));
 1228:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1229:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Process locked */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 23
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 23
 
 
 1230:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_LOCK(hspi);
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1284:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_ENABLE_IT(hspi, (SPI_IT_TXE | SPI_IT_RXNE | SPI_IT_ERR));
 1285:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1286:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check if the SPI is already enabled */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 24
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 24
 
 
 1287:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if((hspi->Instance->CR1 &SPI_CR1_SPE) != SPI_CR1_SPE)
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1341:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount = 0U;
 1342:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1343:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Configure communication direction : 1Line */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 25
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 25
 
 
 1344:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if(hspi->Init.Direction == SPI_DIRECTION_1LINE)
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval HAL status
 1399:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   */
 1400:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** HAL_StatusTypeDef HAL_SPI_Receive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size)
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 26
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 26
 
 
 1401:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1455:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1456:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Set the SPI Rx DMA transfer complete callback */
 1457:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->hdmarx->XferCpltCallback = SPI_DMAReceiveCplt;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 27
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 27
 
 
 1458:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1512:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1513:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_BUSY;
 1514:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 28
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 28
 
 
 1515:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1569:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1570:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Enable the Rx DMA Stream */
 1571:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_DMA_Start_IT(hspi->hdmarx, (uint32_t)&hspi->Instance->DR, (uint32_t)hspi->pRxBuffPtr, hspi->R
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 29
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 29
 
 
 1572:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1626:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->TxISR = SPI_AbortTx_ISR;
 1627:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
 1628:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 30
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 30
 
 
 1629:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if(HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_RXNEIE))
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1683:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount = 0U;
 1684:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount = 0U;
 1685:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 31
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 31
 
 
 1686:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Reset errorCode */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1740:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1741:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Set DMA Abort Complete callback if UART DMA Tx request if enabled.
 1742:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****        Otherwise, set it to NULL */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 32
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 32
 
 
 1743:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if(HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1797:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
 1798:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1799:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Disable the SPI DMA Tx or the SPI Rx request if enabled */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 33
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 33
 
 
 1800:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1854:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
 1855:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1856:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 34
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 34
 
 
 1857:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief  Pause the DMA Transfer.
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1911:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if(hspi->hdmatx != NULL)
 1912:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1913:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     HAL_DMA_Abort(hspi->hdmatx);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 35
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 35
 
 
 1914:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1968:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
 1969:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
 1970:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 36
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 36
 
 
 1971:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* SPI Mode Fault error interrupt occurred -------------------------------*/
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2025:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi: pointer to a SPI_HandleTypeDef structure that contains
 2026:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *               the configuration information for SPI module.
 2027:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval None
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 37
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 37
 
 
 2028:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2082:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2083:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
 2084:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief Rx Half Transfer completed callback.
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 38
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 38
 
 
 2085:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi: pointer to a SPI_HandleTypeDef structure that contains
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2139:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   UNUSED(hspi);
 2140:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2141:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 39
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 39
 
 
 2142:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             the HAL_SPI_AbortCpltCallback can be implemented in the user file.
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2196:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2197:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /** @addtogroup SPI_Private_Functions
 2198:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief   Private functions
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 40
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 40
 
 
 2199:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @{
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2253:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 2254:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   SPI_HandleTypeDef* hspi = ( SPI_HandleTypeDef* )((DMA_HandleTypeDef* )hdma)->Parent;
 2255:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 41
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 41
 
 
 2256:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t tickstart = 0U;
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2310:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_SPI_RxCpltCallback(hspi);
 2311:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
 2312:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 42
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 42
 
 
 2313:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2367:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2368:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if(hspi->ErrorCode != HAL_SPI_ERROR_NONE)
 2369:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 43
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 43
 
 
 2370:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       HAL_SPI_ErrorCallback(hspi);
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2424:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   SPI_HandleTypeDef* hspi = (SPI_HandleTypeDef* )((DMA_HandleTypeDef* )hdma)->Parent;
 2425:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2426:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /* Stop the disable DMA transfer on SPI side */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 44
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 44
 
 
 2427:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN | SPI_CR2_RXDMAEN);
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2481:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if(hspi->hdmarx->XferAbortCallback != NULL)
 2482:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
 2483:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       return;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 45
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 45
 
 
 2484:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2538:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->ErrorCode = HAL_SPI_ERROR_NONE;
 2539:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2540:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Clear the Error flags in the SR register */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 46
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 46
 
 
 2541:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_CLEAR_OVRFLAG(hspi);
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2595:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Read data register to flush CRC */
 2596:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   tmpreg = *((__IO uint8_t *)&hspi->Instance->DR);
 2597:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 47
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 47
 
 
 2598:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* To avoid GCC warning */
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2652:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 2653:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Receive data in 16 Bit mode */
 2654:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *((uint16_t*)hspi->pRxBuffPtr) = hspi->Instance->DR;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 48
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 48
 
 
 2655:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr += sizeof(uint16_t);
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2709:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_2linesTxISR_16BIT(struct __SPI_HandleTypeDef *hspi)
 2710:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 2711:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 49
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 49
 
 
 2712:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2766:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 2767:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *hspi->pRxBuffPtr++ = (*(__IO uint8_t *)&hspi->Instance->DR);
 2768:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount--;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 50
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 50
 
 
 2769:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2823:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *((uint16_t *)hspi->pRxBuffPtr) = hspi->Instance->DR;
 2824:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr += sizeof(uint16_t);
 2825:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount--;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 51
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 51
 
 
 2826:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2880:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
 2881:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
 2882:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 52
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 52
 
 
 2883:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount--;
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2937:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Process Unlocked */
 2938:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         __HAL_UNLOCK(hspi);
 2939:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 53
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 53
 
 
 2940:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         return HAL_TIMEOUT;
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2994:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if(SPI_CheckFlag_BSY(hspi, SPI_DEFAULT_TIMEOUT, tickstart)!=HAL_OK)
 2995:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 2996:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 54
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 54
 
 
 2997:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 3051:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Check the end of the transaction */
 3052:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if((hspi->Init.Mode == SPI_MODE_MASTER)&&((hspi->Init.Direction == SPI_DIRECTION_1LINE)||(hspi-
 3053:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 55
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 55
 
 
 3054:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       /* Disable SPI peripheral */
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 3108:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
 3109:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       break;
 3110:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 56
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 56
 
 
 3111:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 3153:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t count = SPI_DEFAULT_TIMEOUT * (SystemCoreClock / 24U / 1000U);
   39              		.loc 1 3153 0
   40 0006 144B     		ldr	r3, .L7
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 57
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 57
 
 
   41 0008 1B68     		ldr	r3, [r3]
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 3172:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Flush DR Register */
 3173:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   tmpreg = (*(__IO uint32_t *)&hspi->Instance->DR);
   76              		.loc 1 3173 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 58
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 58
 
 
   77 004a 0368     		ldr	r3, [r0]
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 3191:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_DISABLE(hspi);
  116              		.loc 1 3191 0
  117 000a 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 59
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 59
 
 
  118 000c 1368     		ldr	r3, [r2]
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  168 001a 2A68     		ldr	r2, [r5]
  169 001c 5368     		ldr	r3, [r2, #4]
  170 001e 23F0E003 		bic	r3, r3, #224
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 60
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 60
 
 
  171 0022 5360     		str	r3, [r2, #4]
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  216 0070 43F40053 		orr	r3, r3, #8192
  217 0074 1360     		str	r3, [r2]
  218 0076 DDE7     		b	.L16
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 61
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 61
 
 
  219              	.L26:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  268 0004 0446     		mov	r4, r0
 2958:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  269              		.loc 1 2958 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 62
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 62
 
 
  270 0006 0092     		str	r2, [sp]
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  321              		.cfi_endproc
  322              	.LFE128:
  324              		.section	.text.HAL_SPI_Init,"ax",%progbits
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 63
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 63
 
 
  325              		.align	1
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  372 002e 2269     		ldr	r2, [r4, #16]
  373 0030 1343     		orrs	r3, r3, r2
  374 0032 6269     		ldr	r2, [r4, #20]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 64
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 64
 
 
  375 0034 1343     		orrs	r3, r3, r2
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  421              		.loc 1 268 0
  422 007c 0120     		movs	r0, #1
  423              	.LVL16:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 65
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 65
 
 
  337:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  475 0006 0223     		movs	r3, #2
  476 0008 80F85130 		strb	r3, [r0, #81]
  359:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 66
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 66
 
 
  477              		.loc 1 359 0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  525              		.cfi_def_cfa_offset 24
  526              		.cfi_offset 4, -24
  527              		.cfi_offset 5, -20
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 67
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 67
 
 
  528              		.cfi_offset 6, -16
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  574              		.cfi_remember_state
  575              		.cfi_def_cfa_offset 24
  576              		@ sp needed
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 68
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 68
 
 
  577 0040 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  617 007a 1A68     		ldr	r2, [r3]
  618 007c 12F0400F 		tst	r2, #64
  619 0080 03D1     		bne	.L53
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 69
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 69
 
 
  507:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  665 00c6 0DD1     		bne	.L57
  666              	.L55:
  515:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       pData += sizeof(uint16_t);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 70
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 70
 
 
  667              		.loc 1 515 0 is_stmt 1
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  713 010a B042     		cmp	r0, r6
  714 010c EAD3     		bcc	.L57
  534:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           goto error;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 71
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 71
 
 
  715              		.loc 1 534 0
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  760 014e 0122     		movs	r2, #1
  761 0150 0221     		movs	r1, #2
  762 0152 2046     		mov	r0, r4
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 72
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 72
 
 
  763 0154 FFF7FEFF 		bl	SPI_WaitFlagStateUntilTimeout
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  808 0190 4EE7     		b	.L51
  809              	.LVL45:
  810              	.L72:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 73
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 73
 
 
  471:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  862 0006 9946     		mov	r9, r3
  863 0008 0C9D     		ldr	r5, [sp, #48]
  864              	.LVL49:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 74
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 74
 
 
  831:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  908 0048 05B0     		add	sp, sp, #20
  909              	.LCFI17:
  910              		.cfi_remember_state
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 75
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 75
 
 
  911              		.cfi_def_cfa_offset 28
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  862:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)pTxData;
  955              		.loc 1 862 0
  956 0086 A4F83C90 		strh	r9, [r4, #60]	@ movhi
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 76
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 76
 
 
  863:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount = Size;
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  999 00c8 013B     		subs	r3, r3, #1
  1000 00ca 9BB2     		uxth	r3, r3
  1001 00cc E386     		strh	r3, [r4, #54]	@ movhi
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 77
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 77
 
 
  1002              	.L103:
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1047 0108 12F0010F 		tst	r2, #1
  1048 010c 08D0     		beq	.L98
  918:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         pRxData += sizeof(uint16_t);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 78
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 78
 
 
  1049              		.loc 1 918 0 is_stmt 1
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1094 0150 DA60     		str	r2, [r3, #12]
  1095              	.LVL75:
  902:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Next Data is a reception (Rx). Tx not allowed */ 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 79
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 79
 
 
  1096              		.loc 1 902 0
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1141 018e 4FF00109 		mov	r9, #1
  1142              	.LVL83:
  1143              	.L106:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 80
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 80
 
 
  967:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1188              	.L125:
  967:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  1189              		.loc 1 967 0 discriminator 1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 81
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 81
 
 
  1190 01d0 FFF7FEFF 		bl	HAL_GetTick
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1235              		.loc 1 1022 0
  1236 0214 0392     		str	r2, [sp, #12]
  1237 0216 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 82
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 82
 
 
  1238 0218 D168     		ldr	r1, [r2, #12]
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1290 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
  1291              	.LCFI19:
  1292              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 83
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 83
 
 
  1293              		.cfi_offset 4, -24
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1339 0040 84F85030 		strb	r3, [r4, #80]
  1340              	.LVL109:
  1341              	.L129:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 84
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 84
 
 
  804:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  1386              		.loc 1 657 0
  1387 0078 E787     		strh	r7, [r4, #62]	@ movhi
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 85
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 85
 
 
  660:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferSize  = 0U;
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1430 00b4 B6F1FF3F 		cmp	r6, #-1
  1431 00b8 10D1     		bne	.L157
  1432              	.L133:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 86
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 86
 
 
  693:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1477 00fe 9A68     		ldr	r2, [r3, #8]
  1478 0100 12F0010F 		tst	r2, #1
  1479 0104 F2D0     		beq	.L139
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 87
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 87
 
 
  722:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         pData += sizeof(uint16_t);
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1524 0148 23F04003 		bic	r3, r3, #64
  1525 014c 1360     		str	r3, [r2]
  1526 014e EEE7     		b	.L142
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 88
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 88
 
 
  1527              	.LVL119:
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1047:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  1577              		.loc 1 1047 0
  1578 0002 90F85000 		ldrb	r0, [r0, #80]	@ zero_extendqisi2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 89
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 89
 
 
  1579              	.LVL127:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1619 003c 1864     		str	r0, [r3, #64]
 1075:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  1620              		.loc 1 1075 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 90
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 90
 
 
  1621 003e DA68     		ldr	r2, [r3, #12]
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1666 007c 42F48042 		orr	r2, r2, #16384
  1667 0080 0A60     		str	r2, [r1]
  1668              	.LVL132:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 91
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 91
 
 
  1669 0082 E4E7     		b	.L165
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1718              	HAL_SPI_TransmitReceive_IT:
  1719              	.LFB135:
 1222:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t tmp = 0U, tmp1 = 0U;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 92
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 92
 
 
  1720              		.loc 1 1222 0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1765              	.LCFI24:
  1766              		.cfi_remember_state
  1767              		.cfi_restore 5
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 93
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 93
 
 
  1768              		.cfi_restore 4
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr  = (uint8_t *)pRxData;
  1812              		.loc 1 1258 0
  1813 005c C386     		strh	r3, [r0, #54]	@ movhi
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 94
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 94
 
 
 1259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1857              	.L182:
 1271:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->TxISR     = SPI_2linesTxISR_8BIT;
  1858              		.loc 1 1271 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 95
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 95
 
 
  1859 0098 0A4B     		ldr	r3, .L195+8
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1909              		.align	1
  1910              		.global	HAL_SPI_Receive_IT
  1911              		.syntax unified
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 96
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 96
 
 
  1912              		.thumb
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  1959 002c 84F85030 		strb	r3, [r4, #80]
  1960              	.LVL169:
  1961              	.L199:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 97
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 97
 
 
 1210:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2002              		.loc 1 1166 0
  2003 0060 6364     		str	r3, [r4, #68]
 1169:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 98
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 98
 
 
  2004              		.loc 1 1169 0
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1151:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
  2050              		.loc 1 1151 0
  2051 00a2 0120     		movs	r0, #1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 99
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 99
 
 
  2052 00a4 C1E7     		b	.L200
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2102 000e 80F85030 		strb	r3, [r0, #80]
 1317:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  2103              		.loc 1 1317 0 discriminator 2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 100
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 100
 
 
  2104 0012 90F85130 		ldrb	r3, [r0, #81]	@ zero_extendqisi2
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2144 0044 8387     		strh	r3, [r0, #60]	@ movhi
 1341:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  2145              		.loc 1 1341 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 101
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 101
 
 
  2146 0046 C387     		strh	r3, [r0, #62]	@ movhi
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2191 008a 5368     		ldr	r3, [r2, #4]
  2192 008c 43F02003 		orr	r3, r3, #32
  2193 0090 5360     		str	r3, [r2, #4]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 102
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 102
 
 
 1383:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2243              		.section	.text.HAL_SPI_TransmitReceive_DMA,"ax",%progbits
  2244              		.align	1
  2245              		.global	HAL_SPI_TransmitReceive_DMA
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 103
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 103
 
 
  2246              		.syntax unified
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2292              		.loc 1 1600 0
  2293 0028 0023     		movs	r3, #0
  2294 002a 84F85030 		strb	r3, [r4, #80]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 104
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 104
 
 
  2295              	.LVL203:
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1533:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr  = (uint8_t*)pRxData;
  2338              		.loc 1 1533 0
  2339 005c E386     		strh	r3, [r4, #54]	@ movhi
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 105
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 105
 
 
 1534:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2383              	.LVL213:
 1574:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  2384              		.loc 1 1574 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 106
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 106
 
 
  2385 0098 2268     		ldr	r2, [r4]
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2429              		.loc 1 1500 0
  2430 00e6 0020     		movs	r0, #0
  2431 00e8 9EE7     		b	.L235
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 107
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 107
 
 
  2432              	.LVL215:
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2480              		.align	2
  2481              	.L251:
  2482 0114 00000000 		.word	SPI_DMAHalfTransmitReceiveCplt
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 108
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 108
 
 
  2483 0118 00000000 		.word	SPI_DMATransmitReceiveCplt
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2533 0024 0128     		cmp	r0, #1
  2534 0026 0CD0     		beq	.L265
 1416:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 109
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 109
 
 
  2535              		.loc 1 1416 0
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1434:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxISR       = NULL;
  2578              		.loc 1 1434 0
  2579 005a 2364     		str	r3, [r4, #64]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 110
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 110
 
 
 1435:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferSize  = 0U;
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2623 009a 42F04002 		orr	r2, r2, #64
  2624 009e 1A60     		str	r2, [r3]
  2625              	.L258:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 111
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 111
 
 
 1476:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2675              		.thumb_func
  2676              		.fpu fpv4-sp-d16
  2678              	HAL_SPI_Abort:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 112
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 112
 
 
  2679              	.LFB139:
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2725 003c 2368     		ldr	r3, [r4]
  2726 003e 5A68     		ldr	r2, [r3, #4]
  2727 0040 12F0020F 		tst	r2, #2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 113
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 113
 
 
  2728 0044 03D1     		bne	.L272
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2772 0086 0022     		movs	r2, #0
  2773 0088 1A65     		str	r2, [r3, #80]
 1672:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 114
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 114
 
 
  2774              		.loc 1 1672 0
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2819              		.cfi_def_cfa_offset 8
  2820              		@ sp needed
  2821 00ca 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 115
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 115
 
 
  2822              	.LVL249:
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2871 0022 0220     		movs	r0, #2
  2872              	.LVL253:
 1874:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 116
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 116
 
 
  2873              		.loc 1 1874 0
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2921              	.LFE142:
  2923              		.section	.text.HAL_SPI_DMAStop,"ax",%progbits
  2924              		.align	1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 117
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 117
 
 
  2925              		.global	HAL_SPI_DMAStop
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  2973              		.section	.text.HAL_SPI_TxCpltCallback,"ax",%progbits
  2974              		.align	1
  2975              		.weak	HAL_SPI_TxCpltCallback
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 118
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 118
 
 
  2976              		.syntax unified
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3030              	.LVL264:
 2066:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  3031              		.loc 1 2066 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 119
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 119
 
 
  3032 0000 7047     		bx	lr
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3085              	.LFE158:
  3087              		.section	.text.HAL_SPI_RxHalfCpltCallback,"ax",%progbits
  3088              		.align	1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 120
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 120
 
 
  3089              		.weak	HAL_SPI_RxHalfCpltCallback
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3142              		.thumb
  3143              		.thumb_func
  3144              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 121
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 121
 
 
  3146              	HAL_SPI_TxRxHalfCpltCallback:
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2120:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Prevent unused argument(s) compilation warning */
  3199              		.loc 1 2120 0
  3200              		.cfi_startproc
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 122
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 122
 
 
  3201              		@ args = 0, pretend = 0, frame = 0
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3252 0024 0191     		str	r1, [sp, #4]
  3253 0026 2BB1     		cbz	r3, .L313
 3112:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 123
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 123
 
 
  3254              		.loc 1 3112 0
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3300              		.loc 1 3130 0
  3301 0070 636D     		ldr	r3, [r4, #84]
  3302 0072 23B9     		cbnz	r3, .L314
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 124
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 124
 
 
 3136:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3354 0006 0263     		str	r2, [r0, #48]
  3355 0008 0268     		ldr	r2, [r0]
  3356 000a 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 125
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 125
 
 
  3357 000c 1373     		strb	r3, [r2, #12]
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3405              		.loc 1 2882 0
  3406 000a 036B     		ldr	r3, [r0, #48]
  3407 000c 0233     		adds	r3, r3, #2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 126
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 126
 
 
  3408 000e 0363     		str	r3, [r0, #48]
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3457 000c 5360     		str	r3, [r2, #4]
 3052:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  3458              		.loc 1 3052 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 127
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 127
 
 
  3459 000e 4368     		ldr	r3, [r0, #4]
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3505              	.L327:
 3055:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
  3506              		.loc 1 3055 0 is_stmt 1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 128
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 128
 
 
  3507 004a 0268     		ldr	r2, [r0]
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3557              		.loc 1 2789 0
  3558 001c 08BD     		pop	{r3, pc}
  3559              	.LVL304:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 129
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 129
 
 
  3560              	.L337:
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3608              		.loc 1 2846 0
  3609 001e 08BD     		pop	{r3, pc}
  3610              	.LVL308:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 130
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 130
 
 
  3611              	.L341:
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3661 0024 23F02003 		bic	r3, r3, #32
  3662 0028 4B60     		str	r3, [r1, #4]
  3663              	.L345:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 131
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 131
 
 
 2985:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 3019:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  3710              		.loc 1 3019 0
  3711 006e 94F85130 		ldrb	r3, [r4, #81]	@ zero_extendqisi2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 132
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 132
 
 
  3712 0072 DBB2     		uxtb	r3, r3
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3758              	.LFE175:
  3760              		.section	.text.SPI_2linesTxISR_8BIT,"ax",%progbits
  3761              		.align	1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 133
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 133
 
 
  3762              		.syntax unified
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2640:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
  3810              		.loc 1 2640 0
  3811 002e FFF7FEFF 		bl	SPI_CloseRxTx_ISR
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 134
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 134
 
 
  3812              	.LVL323:
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3861 002a 03B1     		cbz	r3, .L363
  3862              	.LVL325:
  3863              	.L360:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 135
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 135
 
 
 2582:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3912 001c 3BB9     		cbnz	r3, .L364
 2729:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  3913              		.loc 1 2729 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 136
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 136
 
 
  3914 001e 0268     		ldr	r2, [r0]
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  3963 000e 8363     		str	r3, [r0, #56]
 2656:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  3964              		.loc 1 2656 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 137
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 137
 
 
  3965 0010 C38F     		ldrh	r3, [r0, #62]
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4014              		.cfi_offset 14, -4
 2424:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  4015              		.loc 1 2424 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 138
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 138
 
 
  4016 0002 806B     		ldr	r0, [r0, #56]
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2214:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  4065              		.loc 1 2214 0
  4066 0008 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 139
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 139
 
 
  4067              	.LVL341:
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4112 0050 636D     		ldr	r3, [r4, #84]
  4113 0052 23B9     		cbnz	r3, .L380
  4114              	.L375:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 140
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 140
 
 
 2243:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4164 0006 1268     		ldr	r2, [r2]
  4165 0008 12F4807F 		tst	r2, #256
  4166 000c 0FD1     		bne	.L382
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 141
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 141
 
 
 2283:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4211              	.L388:
 2306:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       return;
  4212              		.loc 1 2306 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 142
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 142
 
 
  4213 0050 1846     		mov	r0, r3
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2349:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
  4263              		.loc 1 2349 0
  4264 0020 636D     		ldr	r3, [r4, #84]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 143
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 143
 
 
  4265 0022 43F02003 		orr	r3, r3, #32
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4312              	.LFB144:
 1934:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t itsource = hspi->Instance->CR2;
  4313              		.loc 1 1934 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 144
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 144
 
 
  4314              		.cfi_startproc
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4361              	.L406:
  4362              	.LCFI68:
  4363              		.cfi_restore_state
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 145
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 145
 
 
 1940:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4408 006a 13F0200F 		tst	r3, #32
  4409 006e 0CD0     		beq	.L401
 1974:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       __HAL_SPI_CLEAR_MODFFLAG(hspi);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 146
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 146
 
 
  4410              		.loc 1 1974 0
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4456              		.loc 1 1992 0
  4457 00ba 10F0030F 		tst	r0, #3
  4458 00be 1CD0     		beq	.L403
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 147
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 147
 
 
 1994:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2016:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
  4504              		.loc 1 2016 0
  4505 00fa 2046     		mov	r0, r4
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 148
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 148
 
 
  4506              	.LVL379:
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4557              		.thumb_func
  4558              		.fpu fpv4-sp-d16
  4560              	HAL_SPI_AbortCpltCallback:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 149
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 149
 
 
  4561              	.LFB152:
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1728:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  4611              		.loc 1 1728 0
  4612 001c 3D4A     		ldr	r2, .L432+4
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 150
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 150
 
 
  4613 001e 2264     		str	r2, [r4, #64]
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 1774:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  4657              		.loc 1 1774 0
  4658 0062 FFF7FEFF 		bl	HAL_DMA_Abort_IT
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 151
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 151
 
 
  4659              	.LVL388:
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4703 0096 F3E7     		b	.L420
  4704              	.LVL394:
  4705              	.L424:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 152
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 152
 
 
 1734:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4749 00d0 0020     		movs	r0, #0
  4750 00d2 03B0     		add	sp, sp, #12
  4751              	.LCFI72:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 153
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 153
 
 
  4752              		.cfi_remember_state
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4798 00fc 0193     		str	r3, [sp, #4]
  4799 00fe 019B     		ldr	r3, [sp, #4]
  4800              	.LBE15:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 154
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 154
 
 
 1848:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
 2525:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  4850              		.loc 1 2525 0
  4851 001c 836C     		ldr	r3, [r0, #72]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 155
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 155
 
 
  4852 001e 13B1     		cbz	r3, .L435
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4896              		.loc 1 2549 0
  4897 0052 03B0     		add	sp, sp, #12
  4898              	.LCFI76:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 156
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 156
 
 
  4899              		.cfi_def_cfa_offset 4
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4949 002a 019B     		ldr	r3, [sp, #4]
  4950 002c 5A1E     		subs	r2, r3, #1
  4951 002e 0192     		str	r2, [sp, #4]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 157
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 157
 
 
  4952 0030 2BB1     		cbz	r3, .L447
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  4997 0064 009B     		ldr	r3, [sp]
  4998              	.LBE18:
 2498:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 158
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 158
 
 
  4999              		.loc 1 2498 0
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  5052              		@ link register save eliminated.
  5053              	.LVL416:
 2186:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 159
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 159
 
 
  5054              		.loc 1 2186 0
@@ -9505,138 +9505,138 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 1
  5075              		.file 13 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
  5076              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
  5077              		.file 15 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 160
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 160
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_spi.c
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:18     .text.SPI_AbortRx_ISR:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:24     .text.SPI_AbortRx_ISR:00000000 SPI_AbortRx_ISR
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:91     .text.SPI_AbortRx_ISR:00000058 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:97     .text.SPI_AbortTx_ISR:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:103    .text.SPI_AbortTx_ISR:00000000 SPI_AbortTx_ISR
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:127    .text.SPI_WaitFlagStateUntilTimeout:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:133    .text.SPI_WaitFlagStateUntilTimeout:00000000 SPI_WaitFlagStateUntilTimeout
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:247    .text.SPI_CheckFlag_BSY:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:253    .text.SPI_CheckFlag_BSY:00000000 SPI_CheckFlag_BSY
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:304    .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:311    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:325    .text.HAL_SPI_Init:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:332    .text.HAL_SPI_Init:00000000 HAL_SPI_Init
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:430    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:437    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:451    .text.HAL_SPI_DeInit:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:458    .text.HAL_SPI_DeInit:00000000 HAL_SPI_DeInit
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:509    .text.HAL_SPI_Transmit:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:516    .text.HAL_SPI_Transmit:00000000 HAL_SPI_Transmit
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:835    .text.HAL_SPI_TransmitReceive:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:842    .text.HAL_SPI_TransmitReceive:00000000 HAL_SPI_TransmitReceive
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1276   .text.HAL_SPI_Receive:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1283   .text.HAL_SPI_Receive:00000000 HAL_SPI_Receive
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1560   .text.HAL_SPI_Transmit_IT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1567   .text.HAL_SPI_Transmit_IT:00000000 HAL_SPI_Transmit_IT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1705   .text.HAL_SPI_Transmit_IT:000000a8 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3388   .text.SPI_TxISR_16BIT:00000000 SPI_TxISR_16BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3339   .text.SPI_TxISR_8BIT:00000000 SPI_TxISR_8BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1711   .text.HAL_SPI_TransmitReceive_IT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1718   .text.HAL_SPI_TransmitReceive_IT:00000000 HAL_SPI_TransmitReceive_IT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1901   .text.HAL_SPI_TransmitReceive_IT:000000bc $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3943   .text.SPI_2linesRxISR_16BIT:00000000 SPI_2linesRxISR_16BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3883   .text.SPI_2linesTxISR_16BIT:00000000 SPI_2linesTxISR_16BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3825   .text.SPI_2linesRxISR_8BIT:00000000 SPI_2linesRxISR_8BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3767   .text.SPI_2linesTxISR_8BIT:00000000 SPI_2linesTxISR_8BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1909   .text.HAL_SPI_Receive_IT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:1916   .text.HAL_SPI_Receive_IT:00000000 HAL_SPI_Receive_IT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2069   .text.HAL_SPI_Receive_IT:000000b4 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3576   .text.SPI_RxISR_16BIT:00000000 SPI_RxISR_16BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3527   .text.SPI_RxISR_8BIT:00000000 SPI_RxISR_8BIT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2075   .text.HAL_SPI_Transmit_DMA:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2082   .text.HAL_SPI_Transmit_DMA:00000000 HAL_SPI_Transmit_DMA
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2237   .text.HAL_SPI_Transmit_DMA:000000b8 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3064   .text.SPI_DMAHalfTransmitCplt:00000000 SPI_DMAHalfTransmitCplt
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4045   .text.SPI_DMATransmitCplt:00000000 SPI_DMATransmitCplt
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4003   .text.SPI_DMAError:00000000 SPI_DMAError
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2244   .text.HAL_SPI_TransmitReceive_DMA:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2251   .text.HAL_SPI_TransmitReceive_DMA:00000000 HAL_SPI_TransmitReceive_DMA
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2482   .text.HAL_SPI_TransmitReceive_DMA:00000114 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3166   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 SPI_DMAHalfTransmitReceiveCplt
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4229   .text.SPI_DMATransmitReceiveCplt:00000000 SPI_DMATransmitReceiveCplt
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3115   .text.SPI_DMAHalfReceiveCplt:00000000 SPI_DMAHalfReceiveCplt
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4147   .text.SPI_DMAReceiveCplt:00000000 SPI_DMAReceiveCplt
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2491   .text.HAL_SPI_Receive_DMA:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2498   .text.HAL_SPI_Receive_DMA:00000000 HAL_SPI_Receive_DMA
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 161
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:18     .text.SPI_AbortRx_ISR:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:24     .text.SPI_AbortRx_ISR:00000000 SPI_AbortRx_ISR
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:91     .text.SPI_AbortRx_ISR:00000058 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:97     .text.SPI_AbortTx_ISR:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:103    .text.SPI_AbortTx_ISR:00000000 SPI_AbortTx_ISR
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:127    .text.SPI_WaitFlagStateUntilTimeout:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:133    .text.SPI_WaitFlagStateUntilTimeout:00000000 SPI_WaitFlagStateUntilTimeout
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:247    .text.SPI_CheckFlag_BSY:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:253    .text.SPI_CheckFlag_BSY:00000000 SPI_CheckFlag_BSY
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:304    .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:311    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:325    .text.HAL_SPI_Init:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:332    .text.HAL_SPI_Init:00000000 HAL_SPI_Init
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:430    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:437    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:451    .text.HAL_SPI_DeInit:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:458    .text.HAL_SPI_DeInit:00000000 HAL_SPI_DeInit
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:509    .text.HAL_SPI_Transmit:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:516    .text.HAL_SPI_Transmit:00000000 HAL_SPI_Transmit
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:835    .text.HAL_SPI_TransmitReceive:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:842    .text.HAL_SPI_TransmitReceive:00000000 HAL_SPI_TransmitReceive
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1276   .text.HAL_SPI_Receive:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1283   .text.HAL_SPI_Receive:00000000 HAL_SPI_Receive
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1560   .text.HAL_SPI_Transmit_IT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1567   .text.HAL_SPI_Transmit_IT:00000000 HAL_SPI_Transmit_IT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1705   .text.HAL_SPI_Transmit_IT:000000a8 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3388   .text.SPI_TxISR_16BIT:00000000 SPI_TxISR_16BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3339   .text.SPI_TxISR_8BIT:00000000 SPI_TxISR_8BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1711   .text.HAL_SPI_TransmitReceive_IT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1718   .text.HAL_SPI_TransmitReceive_IT:00000000 HAL_SPI_TransmitReceive_IT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1901   .text.HAL_SPI_TransmitReceive_IT:000000bc $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3943   .text.SPI_2linesRxISR_16BIT:00000000 SPI_2linesRxISR_16BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3883   .text.SPI_2linesTxISR_16BIT:00000000 SPI_2linesTxISR_16BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3825   .text.SPI_2linesRxISR_8BIT:00000000 SPI_2linesRxISR_8BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3767   .text.SPI_2linesTxISR_8BIT:00000000 SPI_2linesTxISR_8BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1909   .text.HAL_SPI_Receive_IT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:1916   .text.HAL_SPI_Receive_IT:00000000 HAL_SPI_Receive_IT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2069   .text.HAL_SPI_Receive_IT:000000b4 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3576   .text.SPI_RxISR_16BIT:00000000 SPI_RxISR_16BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3527   .text.SPI_RxISR_8BIT:00000000 SPI_RxISR_8BIT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2075   .text.HAL_SPI_Transmit_DMA:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2082   .text.HAL_SPI_Transmit_DMA:00000000 HAL_SPI_Transmit_DMA
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2237   .text.HAL_SPI_Transmit_DMA:000000b8 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3064   .text.SPI_DMAHalfTransmitCplt:00000000 SPI_DMAHalfTransmitCplt
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4045   .text.SPI_DMATransmitCplt:00000000 SPI_DMATransmitCplt
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4003   .text.SPI_DMAError:00000000 SPI_DMAError
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2244   .text.HAL_SPI_TransmitReceive_DMA:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2251   .text.HAL_SPI_TransmitReceive_DMA:00000000 HAL_SPI_TransmitReceive_DMA
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2482   .text.HAL_SPI_TransmitReceive_DMA:00000114 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3166   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 SPI_DMAHalfTransmitReceiveCplt
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4229   .text.SPI_DMATransmitReceiveCplt:00000000 SPI_DMATransmitReceiveCplt
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3115   .text.SPI_DMAHalfReceiveCplt:00000000 SPI_DMAHalfReceiveCplt
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4147   .text.SPI_DMAReceiveCplt:00000000 SPI_DMAReceiveCplt
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2491   .text.HAL_SPI_Receive_DMA:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2498   .text.HAL_SPI_Receive_DMA:00000000 HAL_SPI_Receive_DMA
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 161
 
 
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2664   .text.HAL_SPI_Receive_DMA:000000d0 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2671   .text.HAL_SPI_Abort:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2678   .text.HAL_SPI_Abort:00000000 HAL_SPI_Abort
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2826   .text.HAL_SPI_Abort:000000cc $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2834   .text.HAL_SPI_DMAPause:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2841   .text.HAL_SPI_DMAPause:00000000 HAL_SPI_DMAPause
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2879   .text.HAL_SPI_DMAResume:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2886   .text.HAL_SPI_DMAResume:00000000 HAL_SPI_DMAResume
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2924   .text.HAL_SPI_DMAStop:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2931   .text.HAL_SPI_DMAStop:00000000 HAL_SPI_DMAStop
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2974   .text.HAL_SPI_TxCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2981   .text.HAL_SPI_TxCpltCallback:00000000 HAL_SPI_TxCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:2995   .text.HAL_SPI_RxCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3002   .text.HAL_SPI_RxCpltCallback:00000000 HAL_SPI_RxCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3016   .text.HAL_SPI_TxRxCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3023   .text.HAL_SPI_TxRxCpltCallback:00000000 HAL_SPI_TxRxCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3037   .text.HAL_SPI_TxHalfCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3044   .text.HAL_SPI_TxHalfCpltCallback:00000000 HAL_SPI_TxHalfCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3058   .text.SPI_DMAHalfTransmitCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3088   .text.HAL_SPI_RxHalfCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3095   .text.HAL_SPI_RxHalfCpltCallback:00000000 HAL_SPI_RxHalfCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3109   .text.SPI_DMAHalfReceiveCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3139   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3146   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 HAL_SPI_TxRxHalfCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3160   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3190   .text.HAL_SPI_ErrorCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3197   .text.HAL_SPI_ErrorCallback:00000000 HAL_SPI_ErrorCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3211   .text.SPI_CloseTx_ISR:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3217   .text.SPI_CloseTx_ISR:00000000 SPI_CloseTx_ISR
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3327   .text.SPI_CloseTx_ISR:00000088 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3333   .text.SPI_TxISR_8BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3382   .text.SPI_TxISR_16BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3433   .text.SPI_CloseRx_ISR:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3439   .text.SPI_CloseRx_ISR:00000000 SPI_CloseRx_ISR
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3521   .text.SPI_RxISR_8BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3570   .text.SPI_RxISR_16BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3621   .text.SPI_CloseRxTx_ISR:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3627   .text.SPI_CloseRxTx_ISR:00000000 SPI_CloseRxTx_ISR
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3755   .text.SPI_CloseRxTx_ISR:000000a4 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3761   .text.SPI_2linesTxISR_8BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3819   .text.SPI_2linesRxISR_8BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3877   .text.SPI_2linesTxISR_16BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3937   .text.SPI_2linesRxISR_16BIT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:3997   .text.SPI_DMAError:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4039   .text.SPI_DMATransmitCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4141   .text.SPI_DMAReceiveCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4223   .text.SPI_DMATransmitReceiveCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4304   .text.HAL_SPI_IRQHandler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4311   .text.HAL_SPI_IRQHandler:00000000 HAL_SPI_IRQHandler
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4513   .text.HAL_SPI_IRQHandler:00000104 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4524   .text.SPI_DMAAbortOnError:00000000 SPI_DMAAbortOnError
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4518   .text.SPI_DMAAbortOnError:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4553   .text.HAL_SPI_AbortCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4560   .text.HAL_SPI_AbortCpltCallback:00000000 HAL_SPI_AbortCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4574   .text.HAL_SPI_Abort_IT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4581   .text.HAL_SPI_Abort_IT:00000000 HAL_SPI_Abort_IT
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4812   .text.HAL_SPI_Abort_IT:00000110 $d
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s 			page 162
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2664   .text.HAL_SPI_Receive_DMA:000000d0 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2671   .text.HAL_SPI_Abort:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2678   .text.HAL_SPI_Abort:00000000 HAL_SPI_Abort
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2826   .text.HAL_SPI_Abort:000000cc $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2834   .text.HAL_SPI_DMAPause:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2841   .text.HAL_SPI_DMAPause:00000000 HAL_SPI_DMAPause
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2879   .text.HAL_SPI_DMAResume:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2886   .text.HAL_SPI_DMAResume:00000000 HAL_SPI_DMAResume
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2924   .text.HAL_SPI_DMAStop:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2931   .text.HAL_SPI_DMAStop:00000000 HAL_SPI_DMAStop
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2974   .text.HAL_SPI_TxCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2981   .text.HAL_SPI_TxCpltCallback:00000000 HAL_SPI_TxCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:2995   .text.HAL_SPI_RxCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3002   .text.HAL_SPI_RxCpltCallback:00000000 HAL_SPI_RxCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3016   .text.HAL_SPI_TxRxCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3023   .text.HAL_SPI_TxRxCpltCallback:00000000 HAL_SPI_TxRxCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3037   .text.HAL_SPI_TxHalfCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3044   .text.HAL_SPI_TxHalfCpltCallback:00000000 HAL_SPI_TxHalfCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3058   .text.SPI_DMAHalfTransmitCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3088   .text.HAL_SPI_RxHalfCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3095   .text.HAL_SPI_RxHalfCpltCallback:00000000 HAL_SPI_RxHalfCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3109   .text.SPI_DMAHalfReceiveCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3139   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3146   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 HAL_SPI_TxRxHalfCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3160   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3190   .text.HAL_SPI_ErrorCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3197   .text.HAL_SPI_ErrorCallback:00000000 HAL_SPI_ErrorCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3211   .text.SPI_CloseTx_ISR:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3217   .text.SPI_CloseTx_ISR:00000000 SPI_CloseTx_ISR
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3327   .text.SPI_CloseTx_ISR:00000088 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3333   .text.SPI_TxISR_8BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3382   .text.SPI_TxISR_16BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3433   .text.SPI_CloseRx_ISR:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3439   .text.SPI_CloseRx_ISR:00000000 SPI_CloseRx_ISR
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3521   .text.SPI_RxISR_8BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3570   .text.SPI_RxISR_16BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3621   .text.SPI_CloseRxTx_ISR:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3627   .text.SPI_CloseRxTx_ISR:00000000 SPI_CloseRxTx_ISR
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3755   .text.SPI_CloseRxTx_ISR:000000a4 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3761   .text.SPI_2linesTxISR_8BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3819   .text.SPI_2linesRxISR_8BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3877   .text.SPI_2linesTxISR_16BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3937   .text.SPI_2linesRxISR_16BIT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:3997   .text.SPI_DMAError:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4039   .text.SPI_DMATransmitCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4141   .text.SPI_DMAReceiveCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4223   .text.SPI_DMATransmitReceiveCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4304   .text.HAL_SPI_IRQHandler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4311   .text.HAL_SPI_IRQHandler:00000000 HAL_SPI_IRQHandler
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4513   .text.HAL_SPI_IRQHandler:00000104 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4524   .text.SPI_DMAAbortOnError:00000000 SPI_DMAAbortOnError
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4518   .text.SPI_DMAAbortOnError:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4553   .text.HAL_SPI_AbortCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4560   .text.HAL_SPI_AbortCpltCallback:00000000 HAL_SPI_AbortCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4574   .text.HAL_SPI_Abort_IT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4581   .text.HAL_SPI_Abort_IT:00000000 HAL_SPI_Abort_IT
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4812   .text.HAL_SPI_Abort_IT:00000110 $d
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s 			page 162
 
 
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4912   .text.SPI_DMATxAbortCallback:00000000 SPI_DMATxAbortCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4826   .text.SPI_DMARxAbortCallback:00000000 SPI_DMARxAbortCallback
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4820   .text.SPI_DMARxAbortCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:4906   .text.SPI_DMATxAbortCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:5009   .text.SPI_DMATxAbortCallback:00000074 $d
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:5015   .text.HAL_SPI_GetState:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:5022   .text.HAL_SPI_GetState:00000000 HAL_SPI_GetState
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:5039   .text.HAL_SPI_GetError:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc5xJj3G.s:5046   .text.HAL_SPI_GetError:00000000 HAL_SPI_GetError
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4912   .text.SPI_DMATxAbortCallback:00000000 SPI_DMATxAbortCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4826   .text.SPI_DMARxAbortCallback:00000000 SPI_DMARxAbortCallback
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4820   .text.SPI_DMARxAbortCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:4906   .text.SPI_DMATxAbortCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:5009   .text.SPI_DMATxAbortCallback:00000074 $d
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:5015   .text.HAL_SPI_GetState:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:5022   .text.HAL_SPI_GetState:00000000 HAL_SPI_GetState
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:5039   .text.HAL_SPI_GetError:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccUX2Sca.s:5046   .text.HAL_SPI_GetError:00000000 HAL_SPI_GetError
 
 UNDEFINED SYMBOLS
 SystemCoreClock
