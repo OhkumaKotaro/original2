@@ -126,6 +126,11 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
+
+
+/*efect:light up led
+  num:number of led
+  state:off,on or colore*/
 void ktr_LED(int num ,int state){
   switch(num){
     case 1:
@@ -215,6 +220,42 @@ void ktr_LED(int num ,int state){
 
   }
 }
+//end of ktrLED()
+
+
+/*efect : config swich
+  num : number of swich
+  return : on(1) or off(0)*/
+int ktr_SW(int num){
+  uint8_t sw=0;
+  switch(num){
+    case 1:
+    if(HAL_GPIO_ReadPin(push1_GPIO_Port,push1_Pin)==0){
+      return 1;
+    }else if(HAL_GPIO_ReadPin(push1_GPIO_Port,push1_Pin)==1){
+      return 0;
+    }
+    break;
+
+    case 2:
+    if(HAL_GPIO_ReadPin(push2_GPIO_Port,push2_Pin)==0){
+      return 1;
+    }else if(HAL_GPIO_ReadPin(push2_GPIO_Port,push2_Pin)==1){
+      return 0;
+    }
+    break;
+
+    case 3:
+    if(HAL_GPIO_ReadPin(push3_GPIO_Port,push3_Pin)==0){
+      return 1;
+    }else if(HAL_GPIO_ReadPin(push3_GPIO_Port,push3_Pin)==1){
+      return 0;
+    }
+    break;
+  }
+}
+//end of ktr_SW()
+  
 /* USER CODE END 2 */
 
 /**

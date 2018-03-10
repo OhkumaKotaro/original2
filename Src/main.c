@@ -108,12 +108,41 @@ int main(void)
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
 
+  //test ktr_SW()
+  while(1){
+    if(ktr_SW(1)==ON){
+      ktr_LED(1,Cyan);
+      HAL_Delay(500);
+      ktr_LED(1,OFF);
+      break;
+    }
+  }
+  while(1){
+    if(ktr_SW(2)==ON){
+      ktr_LED(1,Cyan);
+      HAL_Delay(500);
+      ktr_LED(1,OFF);
+      break;
+    }
+  }
+  while(1){
+    if(ktr_SW(3)==ON){
+      ktr_LED(1,Cyan);
+      HAL_Delay(500);
+      ktr_LED(1,OFF);
+      break;
+    }
+  }
+  //end test ktr_SW()
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+    //test ktr_LED()
     ktr_LED(1,Green);
     HAL_Delay(1000);
     ktr_LED(1,Red);
@@ -124,7 +153,7 @@ int main(void)
     ktr_LED(3,OFF);
     ktr_LED(4,OFF);
     ktr_LED(5,OFF);
-
+    //end test ktr_LED()
 
   /* USER CODE END WHILE */
 
@@ -135,7 +164,7 @@ int main(void)
 
 }
 
-/**
+/*
   * @brief System Clock Configuration
   * @retval None
   */
