@@ -45,12 +45,24 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
 
+#ifdef __GNUC__
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
+void __io_putchar(uint8_t ch) {
+HAL_UART_Transmit(&huart1, &ch, 1, 1);
+}
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE END PV */
@@ -109,13 +121,13 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   //test ktr_buzzer()
-  ktr_Buzzer(C,800);
-  HAL_Delay(1000);
+  ktr_Buzzer(D,800);
+  HAL_Delay(500);
   ktr_Buzzer(NORMAL,0);
   //end test ktr_buzzer()
 
-  HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);
-
+  //HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);//enable ktr_Contlor_motor
+  setbuf(stdout, NULL); //printf use
 
   /* USER CODE END 2 */
 
@@ -123,9 +135,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    //test ktr_Motor_pwm() , ktr_Control_motor()
-    ktr_Control_motor(700,-200);
-    //end test ktr_Motor_pwm() , ktr_Control_motor()
+   //test printf()
+   printf("stomachache\r");
+   //end test printf()
 
   /* USER CODE END WHILE */
 
