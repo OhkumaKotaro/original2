@@ -43,7 +43,8 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN 0 */
-
+TIM_MasterConfigTypeDef sMasterConfig;
+TIM_OC_InitTypeDef sConfigOC;
 /* USER CODE END 0 */
 
 TIM_HandleTypeDef htim1;
@@ -474,6 +475,79 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
 } 
 
 /* USER CODE BEGIN 1 */
+
+
+/************************************************
+ * effect : output sound
+ * period : frequency
+ * pwm : volume
+*************************************************/
+void ktr_Buzzer(int period,int pwm){
+  htim1.Instance = TIM1;
+  htim1.Init.Prescaler = period;
+  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim1.Init.Period = 999;
+  htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim1.Init.RepetitionCounter = 0;
+   if (HAL_TIM_PWM_Init(&htim1) != HAL_OK)
+  {
+    _Error_Handler(__FILE__, __LINE__);
+  }
+
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = pwm;  // set duty
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+  sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+	if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK){
+		Error_Handler();
+	}
+
+  // start
+  if (HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1) != HAL_OK){
+		Error_Handler();
+	}
+}
+//end of ktr_Buzzer()
+
+
+/************************************************************************
+ * effect : output pwm
+ * pwm_right/left : motor power
+ ***********************************************************************/
+
+void ktr_Motor_pwm(int right_pwm,int left_pwm){
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+
+  //set right_pwm
+  sConfigOC.Pulse = right_pwm;
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)
+  {
+    _Error_Handler(__FILE__, __LINE__);
+  }
+
+  //set left_pwm
+  sConfigOC.Pulse = left_pwm;
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_4) != HAL_OK)
+  {
+    _Error_Handler(__FILE__, __LINE__);
+  }
+
+  //start 
+  if (HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3) != HAL_OK){
+		Error_Handler();
+	}
+  if (HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4) != HAL_OK){
+		Error_Handler();
+	}
+}
+
+//end of ktr_Motor
+
 
 /* USER CODE END 1 */
 

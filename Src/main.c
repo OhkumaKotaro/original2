@@ -108,32 +108,14 @@ int main(void)
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
 
-  //test ktr_SW()
-  while(1){
-    if(ktr_SW(1)==ON){
-      ktr_LED(1,Cyan);
-      HAL_Delay(500);
-      ktr_LED(1,OFF);
-      break;
-    }
-  }
-  while(1){
-    if(ktr_SW(2)==ON){
-      ktr_LED(1,Cyan);
-      HAL_Delay(500);
-      ktr_LED(1,OFF);
-      break;
-    }
-  }
-  while(1){
-    if(ktr_SW(3)==ON){
-      ktr_LED(1,Cyan);
-      HAL_Delay(500);
-      ktr_LED(1,OFF);
-      break;
-    }
-  }
-  //end test ktr_SW()
+  //test ktr_buzzer()
+  ktr_Buzzer(C,800);
+  HAL_Delay(1000);
+  ktr_Buzzer(NORMAL,0);
+  //end test ktr_buzzer()
+
+  HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);
+
 
   /* USER CODE END 2 */
 
@@ -141,19 +123,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-    //test ktr_LED()
-    ktr_LED(1,Green);
-    HAL_Delay(1000);
-    ktr_LED(1,Red);
-    HAL_Delay(1000);
-    ktr_LED(1,Blue);
-    HAL_Delay(1000);
-    ktr_LED(2,OFF);
-    ktr_LED(3,OFF);
-    ktr_LED(4,OFF);
-    ktr_LED(5,OFF);
-    //end test ktr_LED()
+    //test ktr_Motor_pwm() , ktr_Control_motor()
+    ktr_Control_motor(700,-200);
+    //end test ktr_Motor_pwm() , ktr_Control_motor()
 
   /* USER CODE END WHILE */
 
@@ -223,6 +195,41 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+
+/***************************************************************
+ * effect : control motor power
+ * r/l_accel : power vector
+ * coution : on stby pin !
+ **************************************************************/
+
+void ktr_Control_motor(int r_accel,int l_accel){
+  //ringht accel
+  if(r_accel>0){
+    HAL_GPIO_WritePin(ain1_GPIO_Port,ain1_Pin,GPIO_PIN_SET);
+    HAL_GPIO_WritePin(ain2_GPIO_Port,ain2_Pin,GPIO_PIN_RESET);
+  }else if(r_accel<0){
+    HAL_GPIO_WritePin(ain1_GPIO_Port,ain1_Pin,GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(ain2_GPIO_Port,ain2_Pin,GPIO_PIN_SET);
+    r_accel *= -1;
+  }
+
+  //left accel
+  if(l_accel>0){
+    HAL_GPIO_WritePin(bin1_GPIO_Port,bin1_Pin,GPIO_PIN_SET);
+    HAL_GPIO_WritePin(bin2_GPIO_Port,bin2_Pin,GPIO_PIN_RESET);
+  }else if(l_accel<0){
+    HAL_GPIO_WritePin(bin1_GPIO_Port,bin1_Pin,GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(bin2_GPIO_Port,bin2_Pin,GPIO_PIN_SET);
+    l_accel *= -1;
+  }
+
+  //set pwm
+  ktr_Motor_pwm(r_accel,l_accel);
+}
+
+//end oh ktr_Control_motor()
+
 
 /* USER CODE END 4 */
 

@@ -91,6 +91,8 @@
 
 /* USER CODE BEGIN Private defines */
 
+void ktr_Control_motor(int r_accel,int l_accel);
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
