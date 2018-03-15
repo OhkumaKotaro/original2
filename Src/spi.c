@@ -127,6 +127,83 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* spiHandle)
 
 /* USER CODE BEGIN 1 */
 
+/********************************************************************
+ * Overview : spi read register
+ * Argument : register
+ * Return : 1byte data
+********************************************************************/
+uint8_t read_byte(uint8_t reg){
+  uint8_t ret,val;
+  HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_RESET);
+  ret = reg|SETTING ;
+  //HAL_SPI_TransmitReceive(&hspi2,&ret,&val,1,100);//こっちだと上手くいかなかった
+  HAL_SPI_Transmit(&hspi2,&ret,1,100);
+  HAL_SPI_Receive(&hspi2,&val,1,100);
+  HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_SET);
+  return val;
+}
+
+
+/****************************************************************
+ * Overview : shift 8bit and spi read register
+ * Argument : register
+ * Return : 2byte data (shift 8bit)
+ ************************************************************/
+int16_t read_shift_byte(uint8_t reg){
+  uint8_t address,val_1;
+  int16_t val_2;
+  HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_RESET);
+  address = reg | SETTING ;
+  //HAL_SPI_TransmitReceive(&hspi2,&address,&val_1,1,100);//こっちだと上手くいかなかった
+  HAL_SPI_Transmit(&hspi2,&address,1,100);
+  HAL_SPI_Receive(&hspi2,&val_1,1,100);
+  val_2 = (int16_t)(val_1 << 8);
+  HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_SET);
+  return val_2;
+}
+
+
+/**************************************************************
+ * Overview : spi write 1byte
+ * Argument : register
+ * Return : 
+ *************************************************************/
+void write_byte( uint8_t reg,uint8_t val){
+  HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_RESET);
+  HAL_SPI_Transmit(&hspi2,&reg,1,100);
+  HAL_SPI_Transmit(&hspi2,&val,1,100);
+  HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_SET);
+}
+
+
+/****************************************************************
+ * Overview : set up l3gd20
+ * argument : 
+ * return :
+ ****************************************************************/
+void ktr_set_l3gd20(void){
+  uint8_t val;
+  val = read_byte(WHO_AM_I);
+  //printf("\nYou are 0x%x\r\n",val );
+  if(val != Certain){
+    ktr_LED(1,OFF);
+  }
+  write_byte(CTRL_REG1,POWER_ON);
+  write_byte(CTRL_REG4,L3GD20_2000dps);
+}
+
+
+/*****************************************************************
+ * Overview : read l3gd20
+ * argument :
+ * Return : int data (2000 deg/sec)
+ ****************************************************************/
+int ktr_get_gyro(void){
+  int val;
+  val = (read_shift_byte(OUT_Z_H) | read_byte(OUT_Z_L)) * 0.070;
+  return val;
+}
+
 /* USER CODE END 1 */
 
 /**

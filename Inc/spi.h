@@ -55,6 +55,22 @@ extern SPI_HandleTypeDef hspi2;
 
 /* USER CODE BEGIN Private defines */
 
+
+// ジャイロ関連
+#define WHO_AM_I    0x0F
+#define CTRL_REG1   0x20
+#define CTRL_REG4   0x23
+#define OUT_Z_L     0x2C
+#define OUT_Z_H     0x2D
+
+#define Certain         0xD4
+#define POWER_ON        0x0F
+#define L3GD20_500dps   0x10
+#define L3GD20_2000dps  0x20
+
+#define SETTING         0x80  //0b1000 0000 8bitの上位bitを立てるといいらしい
+
+
 /* USER CODE END Private defines */
 
 extern void _Error_Handler(char *, int);
@@ -62,6 +78,12 @@ extern void _Error_Handler(char *, int);
 void MX_SPI2_Init(void);
 
 /* USER CODE BEGIN Prototypes */
+
+uint8_t read_byte(uint8_t reg);
+int16_t read_shift_byte(uint8_t reg);
+void write_byte( uint8_t reg,uint8_t val);
+void ktr_set_l3gd20(void);
+int ktr_get_gyro(void);
 
 /* USER CODE END Prototypes */
 

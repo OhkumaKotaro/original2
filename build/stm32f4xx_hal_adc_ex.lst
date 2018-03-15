@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****              (+++) Associate the initialized DMA handle to the ADC DMA handle
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****                  using  __HAL_LINKDMA()
   32:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****              (+++) Configure the priority and enable the NVIC for the transfer complete
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 2
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 2
 
 
   33:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****                  interrupt on the two DMA Streams. The output stream should have higher
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @attention
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   *
   89:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * <h2><center>&copy; COPYRIGHT(c) 2017 STMicroelectronics</center></h2>
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 3
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 3
 
 
   90:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  144:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
  145:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** /* Exported functions --------------------------------------------------------*/
  146:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** /** @defgroup ADCEx_Exported_Functions ADC Exported Functions
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 4
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 4
 
 
  147:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @{
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  201:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     }
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   }
  203:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 5
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 5
 
 
  204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   /* Start conversion if ADC is effectively enabled */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     }
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   }
  260:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 6
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 6
 
 
  261:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   /* Return function status */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       /* Reset ADC all error code fields */
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       ADC_CLEAR_ERRORCODE(hadc);
  317:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 7
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 7
 
 
  318:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @param  hadc: ADC handle
  373:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @retval None
  374:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 8
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 8
 
 
  375:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** HAL_StatusTypeDef HAL_ADCEx_InjectedStop(ADC_HandleTypeDef* hadc)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** HAL_StatusTypeDef HAL_ADCEx_InjectedPollForConversion(ADC_HandleTypeDef* hadc, uint32_t Timeout)
  430:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** {
  431:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   uint32_t tickstart = 0U;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 9
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 9
 
 
  432:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   *         end-of-conversion. Disable ADC peripheral if no regular conversion
  487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   *         is on going.
  488:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @note   If ADC must be disabled and if conversion is on going on 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 10
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 10
 
 
  489:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   *         regular group, function HAL_ADC_Stop must be used to stop both
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   return tmp_hal_status;
  544:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** }
  545:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 11
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 11
 
 
  546:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** /**
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  600:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * 
  601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @note   Caution: This function must be used only with the ADC master.  
  602:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   *
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 12
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 12
 
 
  603:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   * @param  hadc: pointer to a ADC_HandleTypeDef structure that contains
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     {
  658:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       /* Reset ADC error code fields related to conversions on group regular */
  659:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       CLEAR_BIT(hadc->ErrorCode, (HAL_ADC_ERROR_OVR | HAL_ADC_ERROR_DMA));         
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 13
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 13
 
 
  660:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  714:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       hadc->Instance->CR2 |= (uint32_t)ADC_CR2_SWSTART;
  715:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     }
  716:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 14
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 14
 
 
  717:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   return tmp_hal_status;
  772:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** }
  773:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 15
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 15
 
 
  774:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** /**
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  828:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   assert_param(IS_ADC_CHANNEL(sConfigInjected->InjectedChannel));
  829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   assert_param(IS_ADC_INJECTED_RANK(sConfigInjected->InjectedRank));
  830:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   assert_param(IS_ADC_SAMPLE_TIME(sConfigInjected->InjectedSamplingTime));
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 16
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 16
 
 
  831:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   assert_param(IS_ADC_EXT_INJEC_TRIG(sConfigInjected->ExternalTrigInjecConv));
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  885:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   {  
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     /* Select external trigger to start conversion */
  887:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     hadc->Instance->CR2 &= ~(ADC_CR2_JEXTSEL);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 17
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 17
 
 
  888:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     hadc->Instance->CR2 |=  sConfigInjected->ExternalTrigInjecConv;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       hadc->Instance->JOFR4 &= ~(ADC_JOFR4_JOFFSET4);
  943:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       hadc->Instance->JOFR4 |= sConfigInjected->InjectedOffset;
  944:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       break;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 18
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 18
 
 
  945:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   }
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   /* Set ADC mode */
 1000:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   tmpADC_Common->CCR &= ~(ADC_CCR_MULTI);
 1001:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   tmpADC_Common->CCR |= multimode->Mode;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 19
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 19
 
 
 1002:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
 1056:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       /* Set ADC state */
 1057:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       CLEAR_BIT(hadc->State, HAL_ADC_STATE_REG_BUSY);   
 1058:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 20
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 20
 
 
 1059:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       if (HAL_IS_BIT_CLR(hadc->State, HAL_ADC_STATE_INJ_BUSY))
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
   42 0006 0364     		str	r3, [r0, #64]
 1098:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     /* Set ADC error code to DMA error */
 1099:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     hadc->ErrorCode |= HAL_ADC_ERROR_DMA;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 21
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 21
 
 
   43              		.loc 1 1099 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
   95              		.cfi_startproc
   96              		@ args = 0, pretend = 0, frame = 0
   97              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 22
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 22
 
 
   98              	.LVL7:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  141 0032 9168     		ldr	r1, [r2, #8]
 1047:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****         HAL_IS_BIT_CLR(hadc->Instance->CR2, ADC_CR2_EOCS)  )   )
  142              		.loc 1 1047 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 23
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 23
 
 
  143 0034 11F4806F 		tst	r1, #1024
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  192 0002 0023     		movs	r3, #0
  193 0004 0193     		str	r3, [sp, #4]
  194              	.LVL15:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 24
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 24
 
 
  184:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  239 0052 23F44053 		bic	r3, r3, #12288
  240 0056 23F00103 		bic	r3, r3, #1
  241 005a 43F48053 		orr	r3, r3, #4096
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 25
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 25
 
 
  242 005e 0364     		str	r3, [r0, #64]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  285              	.LVL21:
  286              	.L18:
  251:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       tmp2 = HAL_IS_BIT_CLR(hadc->Instance->CR1, ADC_CR1_JAUTO);
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 26
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 26
 
 
  287              		.loc 1 251 0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  331              	.LCFI4:
  332              		.cfi_remember_state
  333              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 27
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 27
 
 
  334              		@ sp needed
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  387 0004 0193     		str	r3, [sp, #4]
  388              	.LVL36:
  279:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 28
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 28
 
 
  389              		.loc 1 279 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  434 0056 23F00103 		bic	r3, r3, #1
  435 005a 43F48053 		orr	r3, r3, #4096
  436 005e 0364     		str	r3, [r0, #64]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 29
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 29
 
 
  313:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     {
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  360:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** }
  480              		.loc 1 360 0
  481 00a6 0020     		movs	r0, #0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 30
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 30
 
 
  482              	.LVL41:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  526              	.LVL50:
  527              	.L31:
  361:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 31
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 31
 
 
  528              		.loc 1 361 0
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  582              	.LVL57:
  383:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     
  583              		.loc 1 383 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 32
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 32
 
 
  584 0002 90F83C20 		ldrb	r2, [r0, #60]	@ zero_extendqisi2
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  628              	.LVL61:
  629              	.L51:
  416:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 33
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 33
 
 
  630              		.loc 1 416 0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  680              	.LVL69:
  681              	.L56:
  437:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 34
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 34
 
 
  682              		.loc 1 437 0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  725 0054 03D0     		beq	.L60
  466:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****      (HAL_IS_BIT_CLR(hadc->Instance->CR1, ADC_CR1_JAUTO) &&
  726              		.loc 1 466 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 35
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 35
 
 
  727 0056 9A68     		ldr	r2, [r3, #8]
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  768              		.loc 1 481 0
  769 0092 0020     		movs	r0, #0
  770 0094 FCE7     		b	.L58
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 36
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 36
 
 
  771              	.L63:
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  517:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     
  821              		.loc 1 517 0
  822 0022 9168     		ldr	r1, [r2, #8]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 37
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 37
 
 
  823 0024 21F00101 		bic	r1, r1, #1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  504:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     
  868              		.loc 1 504 0
  869 0066 0220     		movs	r0, #2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 38
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 38
 
 
  870              	.LVL81:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  595:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** }
  920              		.loc 1 595 0
  921 0022 0198     		ldr	r0, [sp, #4]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 39
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 39
 
 
  922              	.LVL84:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  970              		@ frame_needed = 0, uses_anonymous_args = 0
  971              	.LVL86:
  972 0000 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 40
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 40
 
 
  973              	.LCFI13:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1018 0046 F9D1     		bne	.L87
  1019              	.L85:
  639:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 41
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 41
 
 
  1020              		.loc 1 639 0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  686:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
  1065              		.loc 1 686 0
  1066 009e 0368     		ldr	r3, [r0]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 42
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 42
 
 
  1067 00a0 6FF00204 		mvn	r4, #2
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1113              	.LVL93:
  1114              	.L91:
  704:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 43
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 43
 
 
  1115              		.loc 1 704 0
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1166              		.fpu fpv4-sp-d16
  1168              	HAL_ADCEx_MultiModeStop_DMA:
  1169              	.LFB133:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 44
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 44
 
 
  729:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1214 0034 23F40053 		bic	r3, r3, #8192
  1215 0038 5360     		str	r3, [r2, #4]
  756:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****     
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 45
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 45
 
 
  1216              		.loc 1 756 0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  791:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** }
  1267              		.loc 1 791 0
  1268 0000 014B     		ldr	r3, .L112
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 46
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 46
 
 
  1269 0002 9868     		ldr	r0, [r3, #8]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1321              		.loc 1 818 0 discriminator 2
  1322 000a 30B4     		push	{r4, r5}
  1323              	.LCFI19:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 47
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 47
 
 
  1324              		.cfi_def_cfa_offset 8
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1371 0064 0C69     		ldr	r4, [r1, #16]
  1372 0066 1B1B     		subs	r3, r3, r4
  1373 0068 DBB2     		uxtb	r3, r3
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 48
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 48
 
 
  1374 006a 0333     		adds	r3, r3, #3
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1422              	.L120:
  901:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   {
  1423              		.loc 1 901 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 49
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 49
 
 
  1424 00cc 8B69     		ldr	r3, [r1, #24]
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1470 011a 03EB4303 		add	r3, r3, r3, lsl #1
  1471 011e 0724     		movs	r4, #7
  1472 0120 04FA03F3 		lsl	r3, r4, r3
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 50
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 50
 
 
  1473 0124 22EA0303 		bic	r3, r2, r3
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1520 017e 5369     		ldr	r3, [r2, #20]
  1521 0180 CC68     		ldr	r4, [r1, #12]
  1522 0182 2343     		orrs	r3, r3, r4
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 51
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 51
 
 
  1523 0184 5361     		str	r3, [r2, #20]
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1569 01ba E4E7     		b	.L129
  1570              	.L127:
  937:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****       hadc->Instance->JOFR3 |= sConfigInjected->InjectedOffset;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 52
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 52
 
 
  1571              		.loc 1 937 0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  971:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c **** 
  1618              		.loc 1 971 0
  1619 01fe 7047     		bx	lr
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 53
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 53
 
 
  1620              	.L142:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1669 0022 5A68     		ldr	r2, [r3, #4]
  1670 0024 22F44042 		bic	r2, r2, #49152
  1671 0028 5A60     		str	r2, [r3, #4]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 54
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 54
 
 
 1005:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c ****   
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1719              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h"
  1720              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
  1721              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 55
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 55
 
 
  1722              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
@@ -3249,50 +3249,50 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 1
  1727              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
  1728              		.file 15 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h"
  1729              		.file 16 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s 			page 56
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s 			page 56
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_adc_ex.c
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:18     .text.ADC_MultiModeDMAError:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:24     .text.ADC_MultiModeDMAError:00000000 ADC_MultiModeDMAError
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:56     .text.ADC_MultiModeDMAHalfConvCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:62     .text.ADC_MultiModeDMAHalfConvCplt:00000000 ADC_MultiModeDMAHalfConvCplt
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:86     .text.ADC_MultiModeDMAConvCplt:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:92     .text.ADC_MultiModeDMAConvCplt:00000000 ADC_MultiModeDMAConvCplt
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:173    .text.HAL_ADCEx_InjectedStart:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:180    .text.HAL_ADCEx_InjectedStart:00000000 HAL_ADCEx_InjectedStart
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:359    .text.HAL_ADCEx_InjectedStart:000000e4 $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:367    .text.HAL_ADCEx_InjectedStart_IT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:374    .text.HAL_ADCEx_InjectedStart_IT:00000000 HAL_ADCEx_InjectedStart_IT
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:558    .text.HAL_ADCEx_InjectedStart_IT:000000ec $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:566    .text.HAL_ADCEx_InjectedStop:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:573    .text.HAL_ADCEx_InjectedStop:00000000 HAL_ADCEx_InjectedStop
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:652    .text.HAL_ADCEx_InjectedPollForConversion:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:659    .text.HAL_ADCEx_InjectedPollForConversion:00000000 HAL_ADCEx_InjectedPollForConversion
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:787    .text.HAL_ADCEx_InjectedStop_IT:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:794    .text.HAL_ADCEx_InjectedStop_IT:00000000 HAL_ADCEx_InjectedStop_IT
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:877    .text.HAL_ADCEx_InjectedGetValue:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:884    .text.HAL_ADCEx_InjectedGetValue:00000000 HAL_ADCEx_InjectedGetValue
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:909    .text.HAL_ADCEx_InjectedGetValue:00000018 $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:913    .text.HAL_ADCEx_InjectedGetValue:0000001c $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:958    .text.HAL_ADCEx_MultiModeStart_DMA:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:965    .text.HAL_ADCEx_MultiModeStart_DMA:00000000 HAL_ADCEx_MultiModeStart_DMA
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1150   .text.HAL_ADCEx_MultiModeStart_DMA:00000104 $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1161   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1168   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 HAL_ADCEx_MultiModeStop_DMA
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1247   .text.HAL_ADCEx_MultiModeStop_DMA:00000060 $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1252   .text.HAL_ADCEx_MultiModeGetValue:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1259   .text.HAL_ADCEx_MultiModeGetValue:00000000 HAL_ADCEx_MultiModeGetValue
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1276   .text.HAL_ADCEx_MultiModeGetValue:00000008 $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1281   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1288   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 HAL_ADCEx_InjectedConvCpltCallback
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1302   .text.HAL_ADCEx_InjectedConfigChannel:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1309   .text.HAL_ADCEx_InjectedConfigChannel:00000000 HAL_ADCEx_InjectedConfigChannel
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1623   .text.HAL_ADCEx_InjectedConfigChannel:00000200 $d
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1630   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1637   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 HAL_ADCEx_MultiModeConfigChannel
-C:\Users\kotaro\AppData\Local\Temp\ccdJPQuQ.s:1709   .text.HAL_ADCEx_MultiModeConfigChannel:00000054 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:18     .text.ADC_MultiModeDMAError:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:24     .text.ADC_MultiModeDMAError:00000000 ADC_MultiModeDMAError
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:56     .text.ADC_MultiModeDMAHalfConvCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:62     .text.ADC_MultiModeDMAHalfConvCplt:00000000 ADC_MultiModeDMAHalfConvCplt
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:86     .text.ADC_MultiModeDMAConvCplt:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:92     .text.ADC_MultiModeDMAConvCplt:00000000 ADC_MultiModeDMAConvCplt
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:173    .text.HAL_ADCEx_InjectedStart:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:180    .text.HAL_ADCEx_InjectedStart:00000000 HAL_ADCEx_InjectedStart
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:359    .text.HAL_ADCEx_InjectedStart:000000e4 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:367    .text.HAL_ADCEx_InjectedStart_IT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:374    .text.HAL_ADCEx_InjectedStart_IT:00000000 HAL_ADCEx_InjectedStart_IT
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:558    .text.HAL_ADCEx_InjectedStart_IT:000000ec $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:566    .text.HAL_ADCEx_InjectedStop:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:573    .text.HAL_ADCEx_InjectedStop:00000000 HAL_ADCEx_InjectedStop
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:652    .text.HAL_ADCEx_InjectedPollForConversion:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:659    .text.HAL_ADCEx_InjectedPollForConversion:00000000 HAL_ADCEx_InjectedPollForConversion
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:787    .text.HAL_ADCEx_InjectedStop_IT:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:794    .text.HAL_ADCEx_InjectedStop_IT:00000000 HAL_ADCEx_InjectedStop_IT
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:877    .text.HAL_ADCEx_InjectedGetValue:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:884    .text.HAL_ADCEx_InjectedGetValue:00000000 HAL_ADCEx_InjectedGetValue
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:909    .text.HAL_ADCEx_InjectedGetValue:00000018 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:913    .text.HAL_ADCEx_InjectedGetValue:0000001c $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:958    .text.HAL_ADCEx_MultiModeStart_DMA:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:965    .text.HAL_ADCEx_MultiModeStart_DMA:00000000 HAL_ADCEx_MultiModeStart_DMA
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1150   .text.HAL_ADCEx_MultiModeStart_DMA:00000104 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1161   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1168   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 HAL_ADCEx_MultiModeStop_DMA
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1247   .text.HAL_ADCEx_MultiModeStop_DMA:00000060 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1252   .text.HAL_ADCEx_MultiModeGetValue:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1259   .text.HAL_ADCEx_MultiModeGetValue:00000000 HAL_ADCEx_MultiModeGetValue
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1276   .text.HAL_ADCEx_MultiModeGetValue:00000008 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1281   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1288   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 HAL_ADCEx_InjectedConvCpltCallback
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1302   .text.HAL_ADCEx_InjectedConfigChannel:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1309   .text.HAL_ADCEx_InjectedConfigChannel:00000000 HAL_ADCEx_InjectedConfigChannel
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1623   .text.HAL_ADCEx_InjectedConfigChannel:00000200 $d
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1630   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1637   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 HAL_ADCEx_MultiModeConfigChannel
+C:\Users\kotaro\AppData\Local\Temp\ccL1lEGp.s:1709   .text.HAL_ADCEx_MultiModeConfigChannel:00000054 $d
 
 UNDEFINED SYMBOLS
 HAL_ADC_ErrorCallback

@@ -55,7 +55,7 @@
 #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
 #endif /* __GNUC__ */
 void __io_putchar(uint8_t ch) {
-HAL_UART_Transmit(&huart1, &ch, 1, 1);
+  HAL_UART_Transmit(&huart1, &ch, 1, 1);
 }
 /* USER CODE END Includes */
 
@@ -120,11 +120,22 @@ int main(void)
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
 
+
+  //test ktr_LED()
+  ktr_LED(1,Cyan);
+  //end test ktr_LED()
+
   //test ktr_buzzer()
   ktr_Buzzer(D,800);
   HAL_Delay(500);
   ktr_Buzzer(NORMAL,0);
   //end test ktr_buzzer()
+
+
+  //test void ktr_set_l3gd20()
+  ktr_set_l3gd20();
+  //HAL_TIM_Base_Start_IT( &htim5 );  // irq timer 250us
+  //end test void ktr_set_l3gd20()
 
   //HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);//enable ktr_Contlor_motor
   setbuf(stdout, NULL); //printf use
@@ -135,9 +146,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-   //test printf()
-   printf("stomachache\r");
-   //end test printf()
+   //test ktr_get_gyro()
+   printf( "%04d\r",ktr_get_gyro() );
+   //end test ktr_get_gyro()
 
   /* USER CODE END WHILE */
 
