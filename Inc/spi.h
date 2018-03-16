@@ -68,7 +68,7 @@ extern SPI_HandleTypeDef hspi2;
 #define L3GD20_500dps   0x10
 #define L3GD20_2000dps  0x20
 
-#define SETTING         0x80  //0b1000 0000 8bitの上位bitを立てると�?�?らし�?
+#define SETTING         0x80  //0b1000 0000 8bitの上位bitを立てるといい
 
 
 /* USER CODE END Private defines */
