@@ -159,7 +159,7 @@ int main(void)
 
 }
 
-/*
+/**
   * @brief System Clock Configuration
   * @retval None
   */
