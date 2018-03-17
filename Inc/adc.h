@@ -57,6 +57,11 @@ extern ADC_HandleTypeDef hadc3;
 
 /* USER CODE BEGIN Private defines */
 
+// sensor関連(ad convert relation)
+uint16_t front_sensor[9]; // front_sensor_array
+uint16_t side_sensor[2];  // side_sensor_array
+uint16_t batt_analog;     // batt_analog
+
 /* USER CODE END Private defines */
 
 extern void _Error_Handler(char *, int);
@@ -66,6 +71,10 @@ void MX_ADC2_Init(void);
 void MX_ADC3_Init(void);
 
 /* USER CODE BEGIN Prototypes */
+
+void update_adc1_data( void );
+void update_adc2_data( void );
+void update_adc3_data( void );
 
 /* USER CODE END Prototypes */
 

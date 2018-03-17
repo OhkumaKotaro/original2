@@ -298,6 +298,78 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 
 /* USER CODE BEGIN 1 */
 
+
+///////////////////////////////////////////////////////////////////////
+// set up ad converter 1
+// [argument] nothing
+// [Substitutiong] nothing
+// [return] nothing
+///////////////////////////////////////////////////////////////////////
+void update_adc1_data( void ){
+  uint32_t channels[4] = {ADC_CHANNEL_0,ADC_CHANNEL_1,ADC_CHANNEL_2,ADC_CHANNEL_3}; // channel set buff
+  //read object
+  ADC_ChannelConfTypeDef sConfig;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
+  for(int i = 0; i < 4 ;i++ ){
+    sConfig.Channel = channels[i];  // channel set
+    HAL_ADC_ConfigChannel( &hadc1, &sConfig );  // setting store
+    HAL_ADC_Start( &hadc1 );     // ad convert start
+    while( HAL_ADC_PollForConversion( &hadc1,50 ) != HAL_OK );  // trans
+    front_sensor[4-i] = HAL_ADC_GetValue( &hadc1 );   // get value
+    if ( front_sensor[4-i] < 2000 ) front_sensor[4-i] = 2000;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// set up ad converter 2
+// [argument] nothing
+// [Substitutiong] nothing
+// [return] nothing
+///////////////////////////////////////////////////////////////////////
+void update_adc2_data( void ){
+  uint32_t channels[4] = {ADC_CHANNEL_4,ADC_CHANNEL_5,ADC_CHANNEL_6,ADC_CHANNEL_7};
+  ADC_ChannelConfTypeDef sConfig;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
+  for(int i = 0; i < 4 ;i++ ){
+    sConfig.Channel = channels[i];
+    HAL_ADC_ConfigChannel( &hadc2, &sConfig );
+    HAL_ADC_Start( &hadc2 );
+    while( HAL_ADC_PollForConversion( &hadc2,50 ) != HAL_OK );
+    if( i == 0 ){
+      front_sensor[0] = HAL_ADC_GetValue( &hadc2 );
+      if ( front_sensor[0] < 2000 ) front_sensor[0] = 2000;
+    } else if( i == 1 || i == 2){
+      side_sensor[i-1] = HAL_ADC_GetValue( &hadc2 );
+    } else {
+      batt_analog = HAL_ADC_GetValue( &hadc2 );
+    }   
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// set up ad converter 3
+// [argument] nothing
+// [Substitutiong] nothing
+// [return] nothing
+///////////////////////////////////////////////////////////////////////
+void update_adc3_data( void ){
+  int32_t channels[4] = {ADC_CHANNEL_10,ADC_CHANNEL_11,ADC_CHANNEL_12,ADC_CHANNEL_13};
+  ADC_ChannelConfTypeDef sConfig;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
+  for(int i = 0; i < 4 ;i++ ){
+    sConfig.Channel = channels[i];
+    HAL_ADC_ConfigChannel( &hadc3, &sConfig );
+    HAL_ADC_Start( &hadc3 );
+    while( HAL_ADC_PollForConversion( &hadc3,50 ) != HAL_OK );
+    front_sensor[8-i] = HAL_ADC_GetValue( &hadc3 );
+    if ( front_sensor[8-i] < 2000 ) front_sensor[8-i] = 2000;      
+  }
+}
+
+
 /* USER CODE END 1 */
 
 /**

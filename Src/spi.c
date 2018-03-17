@@ -136,7 +136,7 @@ uint8_t read_byte(uint8_t reg){
   uint8_t ret,val;
   HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_RESET);
   ret = reg|SETTING ;
-  //HAL_SPI_TransmitReceive(&hspi2,&ret,&val,1,100);//こっち�?と上手くいかなかっ�?
+  //HAL_SPI_TransmitReceive(&hspi2,&ret,&val,1,400); //not work
   HAL_SPI_Transmit(&hspi2,&ret,1,100);
   HAL_SPI_Receive(&hspi2,&val,1,100);
   HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_SET);
@@ -154,7 +154,7 @@ int16_t read_shift_byte(uint8_t reg){
   int16_t val_2;
   HAL_GPIO_WritePin(gyro_cs_GPIO_Port,gyro_cs_Pin,GPIO_PIN_RESET);
   address = reg | SETTING ;
-  //HAL_SPI_TransmitReceive(&hspi2,&address,&val_1,1,100);//こっち�?と上手くいかなかっ�?
+  //HAL_SPI_TransmitReceive(&hspi2,&address,&val_1,1,100); //not work
   HAL_SPI_Transmit(&hspi2,&address,1,100);
   HAL_SPI_Receive(&hspi2,&val_1,1,100);
   val_2 = (int16_t)(val_1 << 8);
@@ -184,7 +184,7 @@ void write_byte( uint8_t reg,uint8_t val){
 void ktr_set_l3gd20(void){
   uint8_t val;
   val = read_byte(WHO_AM_I);
-  //printf("\nYou are 0x%x\r\n",val );
+  printf("\nYou are 0x%x\r\n",val );
   if(val != Certain){
     ktr_LED(1,OFF);
   }

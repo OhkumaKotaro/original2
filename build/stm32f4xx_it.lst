@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
   29:Src/stm32f4xx_it.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   30:Src/stm32f4xx_it.c ****   *
   31:Src/stm32f4xx_it.c ****   ******************************************************************************
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 2
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 2
 
 
   32:Src/stm32f4xx_it.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
   49              		.cfi_startproc
   50              		@ Volatile: function does not return.
   51              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 3
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 3
 
 
   52              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
   87:Src/stm32f4xx_it.c ****   /* USER CODE END MemoryManagement_IRQn 0 */
   88:Src/stm32f4xx_it.c ****   while (1)
   89:Src/stm32f4xx_it.c ****   {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 4
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 4
 
 
   90:Src/stm32f4xx_it.c ****     /* USER CODE BEGIN W1_MemoryManagement_IRQn 0 */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
  115              		@ frame_needed = 0, uses_anonymous_args = 0
  116              		@ link register save eliminated.
  117              	.L9:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 5
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 5
 
 
  118 0000 FEE7     		b	.L9
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
  151              	.LFB132:
  146:Src/stm32f4xx_it.c **** 
  147:Src/stm32f4xx_it.c **** /**
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 6
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 6
 
 
  148:Src/stm32f4xx_it.c **** * @brief This function handles Debug monitor.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
  185              		.syntax unified
  186              		.thumb
  187              		.thumb_func
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 7
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 7
 
 
  188              		.fpu fpv4-sp-d16
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
  195:Src/stm32f4xx_it.c **** /**
  196:Src/stm32f4xx_it.c **** * @brief This function handles TIM5 global interrupt.
  197:Src/stm32f4xx_it.c **** */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 8
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 8
 
 
  198:Src/stm32f4xx_it.c **** void TIM5_IRQHandler(void)
@@ -437,66 +437,83 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 1
  202:Src/stm32f4xx_it.c ****   /* USER CODE END TIM5_IRQn 0 */
  203:Src/stm32f4xx_it.c ****   HAL_TIM_IRQHandler(&htim5);
  231              		.loc 1 203 0
- 232 0002 0248     		ldr	r0, .L17
+ 232 0002 0548     		ldr	r0, .L17
  233 0004 FFF7FEFF 		bl	HAL_TIM_IRQHandler
  234              	.LVL2:
  204:Src/stm32f4xx_it.c ****   /* USER CODE BEGIN TIM5_IRQn 1 */
- 205:Src/stm32f4xx_it.c **** 
- 206:Src/stm32f4xx_it.c ****   /* USER CODE END TIM5_IRQn 1 */
- 207:Src/stm32f4xx_it.c **** }
- 235              		.loc 1 207 0
- 236 0008 08BD     		pop	{r3, pc}
- 237              	.L18:
- 238 000a 00BF     		.align	2
- 239              	.L17:
- 240 000c 00000000 		.word	htim5
- 241              		.cfi_endproc
- 242              	.LFE135:
- 244              		.text
- 245              	.Letext0:
- 246              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
- 247              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
- 248              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 249              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 250              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h"
- 251              		.file 7 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
- 252              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
- 253              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\lib\\gcc\\arm-none-eabi
- 254              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include
- 255              		.file 11 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 256              		.file 12 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
- 257              		.file 13 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h"
- 258              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
- 259              		.file 15 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s 			page 9
+ 205:Src/stm32f4xx_it.c ****   update_adc1_data();
+ 235              		.loc 1 205 0
+ 236 0008 FFF7FEFF 		bl	update_adc1_data
+ 237              	.LVL3:
+ 206:Src/stm32f4xx_it.c ****   update_adc2_data();
+ 238              		.loc 1 206 0
+ 239 000c FFF7FEFF 		bl	update_adc2_data
+ 240              	.LVL4:
+ 207:Src/stm32f4xx_it.c ****   update_adc3_data();
+ 241              		.loc 1 207 0
+ 242 0010 FFF7FEFF 		bl	update_adc3_data
+ 243              	.LVL5:
+ 208:Src/stm32f4xx_it.c ****   /* USER CODE END TIM5_IRQn 1 */
+ 209:Src/stm32f4xx_it.c **** }
+ 244              		.loc 1 209 0
+ 245 0014 08BD     		pop	{r3, pc}
+ 246              	.L18:
+ 247 0016 00BF     		.align	2
+ 248              	.L17:
+ 249 0018 00000000 		.word	htim5
+ 250              		.cfi_endproc
+ 251              	.LFE135:
+ 253              		.text
+ 254              	.Letext0:
+ 255              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 256              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 257              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 258              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 259              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h"
+ 260              		.file 7 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 261              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 262              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\lib\\gcc\\arm-none-eabi
+ 263              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include
+ 264              		.file 11 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 265              		.file 12 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ 266              		.file 13 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h"
+ 267              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 9
+
+
+ 268              		.file 15 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_it.c
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:18     .text.NMI_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:25     .text.NMI_Handler:00000000 NMI_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:39     .text.HardFault_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:46     .text.HardFault_Handler:00000000 HardFault_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:60     .text.MemManage_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:67     .text.MemManage_Handler:00000000 MemManage_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:81     .text.BusFault_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:88     .text.BusFault_Handler:00000000 BusFault_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:102    .text.UsageFault_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:109    .text.UsageFault_Handler:00000000 UsageFault_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:123    .text.SVC_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:130    .text.SVC_Handler:00000000 SVC_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:143    .text.DebugMon_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:150    .text.DebugMon_Handler:00000000 DebugMon_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:163    .text.PendSV_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:170    .text.PendSV_Handler:00000000 PendSV_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:183    .text.SysTick_Handler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:190    .text.SysTick_Handler:00000000 SysTick_Handler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:213    .text.TIM5_IRQHandler:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:220    .text.TIM5_IRQHandler:00000000 TIM5_IRQHandler
-C:\Users\kotaro\AppData\Local\Temp\cc3bp2KI.s:240    .text.TIM5_IRQHandler:0000000c $d
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:18     .text.NMI_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:25     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:39     .text.HardFault_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:46     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:60     .text.MemManage_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:67     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:81     .text.BusFault_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:88     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:102    .text.UsageFault_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:109    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:123    .text.SVC_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:130    .text.SVC_Handler:00000000 SVC_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:143    .text.DebugMon_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:150    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:163    .text.PendSV_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:170    .text.PendSV_Handler:00000000 PendSV_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:183    .text.SysTick_Handler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:190    .text.SysTick_Handler:00000000 SysTick_Handler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:213    .text.TIM5_IRQHandler:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:220    .text.TIM5_IRQHandler:00000000 TIM5_IRQHandler
+C:\Users\kotaro\AppData\Local\Temp\ccCtTKgD.s:249    .text.TIM5_IRQHandler:00000018 $d
 
 UNDEFINED SYMBOLS
 HAL_IncTick
 HAL_SYSTICK_IRQHandler
 HAL_TIM_IRQHandler
+update_adc1_data
+update_adc2_data
+update_adc3_data
 htim5

@@ -202,7 +202,9 @@ void TIM5_IRQHandler(void)
   /* USER CODE END TIM5_IRQn 0 */
   HAL_TIM_IRQHandler(&htim5);
   /* USER CODE BEGIN TIM5_IRQn 1 */
-
+  update_adc1_data();
+  update_adc2_data();
+  update_adc3_data();
   /* USER CODE END TIM5_IRQn 1 */
 }
 

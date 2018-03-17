@@ -134,7 +134,7 @@ int main(void)
 
   //test void ktr_set_l3gd20()
   ktr_set_l3gd20();
-  //HAL_TIM_Base_Start_IT( &htim5 );  // irq timer 250us
+  HAL_TIM_Base_Start_IT( &htim5 );  // TIM5_IRQHandler 250us
   //end test void ktr_set_l3gd20()
 
   //HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);//enable ktr_Contlor_motor
@@ -147,8 +147,13 @@ int main(void)
   while (1)
   {
    //test ktr_get_gyro()
-   printf( "%04d\r",ktr_get_gyro() );
+   //printf( "%04d\r",ktr_get_gyro() );
    //end test ktr_get_gyro()
+
+   //test
+   //printf("gyro:%04d batt:%04d side0:%04d side1:%04d\r",ktr_get_gyro(),batt_analog,side_sensor[0],side_sensor[1]);
+   printf( "gyro %04d,sensor side [0] : %04d, side [1]: %04d,batt %04d\r",ktr_get_gyro(),side_sensor[0], side_sensor[1],batt_analog );
+   //end test
 
   /* USER CODE END WHILE */
 

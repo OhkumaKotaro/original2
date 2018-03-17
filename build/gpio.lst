@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
   29:Src/gpio.c    ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
   30:Src/gpio.c    ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
   31:Src/gpio.c    ****   * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 2
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 2
 
 
   32:Src/gpio.c    ****   * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
   47 0006 0024     		movs	r4, #0
   48 0008 0194     		str	r4, [sp, #4]
   49 000a 414B     		ldr	r3, .L3
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 3
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 3
 
 
   50 000c 1A6B     		ldr	r2, [r3, #48]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
   73:Src/gpio.c    ****                           |led2_Pin|stby_Pin|bin2_Pin, GPIO_PIN_RESET);
   74:Src/gpio.c    **** 
   75:Src/gpio.c    ****   /*Configure GPIO pin Output Level */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 4
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 4
 
 
   76:Src/gpio.c    ****   HAL_GPIO_WritePin(GPIOB, gyro_cs_Pin|ain2_Pin|ain1_Pin, GPIO_PIN_RESET);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
   94:Src/gpio.c    ****   GPIO_InitStruct.Pin = gyro_cs_Pin|ain2_Pin|ain1_Pin;
  134              		.loc 1 94 0
  135 00aa 41F21803 		movw	r3, #4120
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 5
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 5
 
 
  136 00ae 0593     		str	r3, [sp, #20]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  173              	.LVL7:
  112:Src/gpio.c    **** 
  113:Src/gpio.c    ****   /*Configure GPIO pin : PtPin */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 6
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 6
 
 
  114:Src/gpio.c    ****   GPIO_InitStruct.Pin = push2_Pin;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  215              	.LFE126:
  217              		.section	.text.ktr_LED,"ax",%progbits
  218              		.align	1
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 7
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 7
 
 
  219              		.global	ktr_LED
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  263 0025 90       		.byte	(.L21-.L14)/2
  264              		.p2align 1
  265              	.L13:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 8
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 8
 
 
  138:Src/gpio.c    ****       case 0:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  310              	.LVL21:
  148:Src/gpio.c    ****       break;
  311              		.loc 1 148 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 9
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 9
 
 
  312 0074 7AE0     		b	.L5
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  355 00ba 4FF40041 		mov	r1, #32768
  356 00be 2046     		mov	r0, r4
  357 00c0 FFF7FEFF 		bl	HAL_GPIO_WritePin
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 10
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 10
 
 
  358              	.LVL31:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  171:Src/gpio.c    ****       HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_RESET);
  401              		.loc 1 171 0
  402 0108 0022     		movs	r2, #0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 11
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 11
 
 
  403 010a 4FF40041 		mov	r1, #32768
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  446 0152 2046     		mov	r0, r4
  447 0154 FFF7FEFF 		bl	HAL_GPIO_WritePin
  448              	.LVL50:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 12
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 12
 
 
  183:Src/gpio.c    ****       HAL_GPIO_WritePin(led6_GPIO_Port,led6_Pin,GPIO_PIN_RESET);
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  220:Src/gpio.c    **** 
  221:Src/gpio.c    ****   }
  222:Src/gpio.c    **** }
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 13
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 13
 
 
  466              		.loc 1 222 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  514              	.L11:
  206:Src/gpio.c    ****       HAL_GPIO_WritePin(led3_GPIO_Port,led3_Pin,GPIO_PIN_SET);
  515              		.loc 1 206 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 14
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 14
 
 
  516 01ac 41B1     		cbz	r1, .L30
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  563 01ee BDE7     		b	.L5
  564              	.L33:
  565              		.align	2
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 15
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 15
 
 
  566              	.L32:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  242:Src/gpio.c    ****       return 1;
  243:Src/gpio.c    ****     }else if(HAL_GPIO_ReadPin(push2_GPIO_Port,push2_Pin)==1){
  244:Src/gpio.c    ****       return 0;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 16
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 16
 
 
  245:Src/gpio.c    ****     }
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  639 0042 E5E7     		b	.L34
  640              	.L49:
  243:Src/gpio.c    ****       return 0;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 17
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 17
 
 
  641              		.loc 1 243 0
@@ -1018,28 +1018,28 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 1
  691              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\lib\\gcc\\arm-none-eabi
  692              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include
  693              		.file 11 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 18
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 18
 
 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s 			page 19
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s 			page 19
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:18     .text.MX_GPIO_Init:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:209    .text.MX_GPIO_Init:00000110 $d
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:218    .text.ktr_LED:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:225    .text.ktr_LED:00000000 ktr_LED
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:244    .text.ktr_LED:0000000e $d
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:256    .text.ktr_LED:0000001e $d
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:264    .text.ktr_LED:00000026 $t
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:567    .text.ktr_LED:000001f0 $d
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:573    .text.ktr_SW:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:580    .text.ktr_SW:00000000 ktr_SW
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:677    .text.ktr_SW:00000078 $d
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:249    .text.ktr_LED:00000013 $d
-C:\Users\kotaro\AppData\Local\Temp\ccUNVFw0.s:249    .text.ktr_LED:00000014 $t
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:18     .text.MX_GPIO_Init:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:209    .text.MX_GPIO_Init:00000110 $d
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:218    .text.ktr_LED:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:225    .text.ktr_LED:00000000 ktr_LED
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:244    .text.ktr_LED:0000000e $d
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:256    .text.ktr_LED:0000001e $d
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:264    .text.ktr_LED:00000026 $t
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:567    .text.ktr_LED:000001f0 $d
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:573    .text.ktr_SW:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:580    .text.ktr_SW:00000000 ktr_SW
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:677    .text.ktr_SW:00000078 $d
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:249    .text.ktr_LED:00000013 $d
+C:\Users\kotaro\AppData\Local\Temp\ccOi1y4k.s:249    .text.ktr_LED:00000014 $t
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
