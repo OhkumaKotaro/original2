@@ -86,8 +86,10 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* USER CODE BEGIN Prototypes */
 
-void ktr_Buzzer(int period,int pwm);
-void ktr_Motor_pwm(int right_pwm,int left_pwm);
+void Buzzer(int period,int pwm);
+void Motor_pwm(int right_pwm,int left_pwm);
+void setup_encoder(void);
+void update_encoder( void );
 
 /* USER CODE END Prototypes */
 

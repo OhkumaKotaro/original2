@@ -181,12 +181,12 @@ void write_byte( uint8_t reg,uint8_t val){
  * argument : 
  * return :
  ****************************************************************/
-void ktr_set_l3gd20(void){
+void set_l3gd20(void){
   uint8_t val;
   val = read_byte(WHO_AM_I);
   printf("\nYou are 0x%x\r\n",val );
   if(val != Certain){
-    ktr_LED(1,OFF);
+    control_LED(1,OFF);
   }
   write_byte(CTRL_REG1,POWER_ON);
   write_byte(CTRL_REG4,L3GD20_2000dps);
@@ -198,7 +198,7 @@ void ktr_set_l3gd20(void){
  * argument :
  * Return : int data (2000 deg/sec)
  ****************************************************************/
-int ktr_get_gyro(void){
+int get_gyro(void){
   int val;
   val = (read_shift_byte(OUT_Z_H) | read_byte(OUT_Z_L)) * 0.070;
   return val;

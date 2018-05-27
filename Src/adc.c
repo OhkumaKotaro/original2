@@ -43,7 +43,7 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN 0 */
-
+//#include "stm32fxx_hal_adc.h"
 /* USER CODE END 0 */
 
 ADC_HandleTypeDef hadc1;

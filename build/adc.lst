@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
   29:Src/adc.c     ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
   30:Src/adc.c     ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
   31:Src/adc.c     ****   * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 2
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 2
 
 
   32:Src/adc.c     ****   * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
@@ -75,7 +75,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
   43:Src/adc.c     **** #include "gpio.h"
   44:Src/adc.c     **** 
   45:Src/adc.c     **** /* USER CODE BEGIN 0 */
-  46:Src/adc.c     **** 
+  46:Src/adc.c     **** //#include "stm32fxx_hal_adc.h"
   47:Src/adc.c     **** /* USER CODE END 0 */
   48:Src/adc.c     **** 
   49:Src/adc.c     **** ADC_HandleTypeDef hadc1;
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
   50 0014 0122     		movs	r2, #1
   51 0016 0261     		str	r2, [r0, #16]
   64:Src/adc.c     ****   hadc1.Init.ContinuousConvMode = ENABLE;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 3
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 3
 
 
   52              		.loc 1 64 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
   88 0044 38B9     		cbnz	r0, .L6
   89              	.L1:
   83:Src/adc.c     ****   {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 4
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 4
 
 
   84:Src/adc.c     ****     _Error_Handler(__FILE__, __LINE__);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  137              		@ frame_needed = 0, uses_anonymous_args = 0
  138 0000 00B5     		push	{lr}
  139              	.LCFI4:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 5
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 5
 
 
  140              		.cfi_def_cfa_offset 4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  177              	.LVL4:
  178 002e 68B9     		cbnz	r0, .L13
  179              	.L10:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 6
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 6
 
 
  108:Src/adc.c     ****   {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  217              	.LVL7:
  218              		.loc 1 122 0
  219 005e F2E7     		b	.L9
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 7
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 7
 
 
  220              	.L16:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  264              		.loc 1 134 0
  265 0018 8261     		str	r2, [r0, #24]
  135:Src/adc.c     ****   hadc3.Init.DiscontinuousConvMode = DISABLE;
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 8
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 8
 
 
  266              		.loc 1 135 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  154:Src/adc.c     ****     _Error_Handler(__FILE__, __LINE__);
  155:Src/adc.c     ****   }
  156:Src/adc.c     **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 9
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 9
 
 
  157:Src/adc.c     **** }
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  352              	.LCFI12:
  353              		.cfi_def_cfa_offset 4
  354              		.cfi_offset 14, -4
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 10
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 10
 
 
  355 0002 89B0     		sub	sp, sp, #36
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  203:Src/adc.c     ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  204:Src/adc.c     **** 
  205:Src/adc.c     ****   /* USER CODE BEGIN ADC2_MspInit 1 */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 11
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 11
 
 
  206:Src/adc.c     **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  393 002e 03F48073 		and	r3, r3, #256
  394 0032 0093     		str	r3, [sp]
  395 0034 009B     		ldr	r3, [sp]
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 12
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 12
 
 
  396              	.LBE2:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  441 0074 D0E7     		b	.L25
  442              	.LVL20:
  443              	.L32:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 13
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 13
 
 
  444              	.LBB4:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  233:Src/adc.c     **** 
  234:Src/adc.c     **** void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
  235:Src/adc.c     **** {
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 14
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 14
 
 
  495              		.loc 1 235 0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  271:Src/adc.c     ****     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7);
  272:Src/adc.c     **** 
  273:Src/adc.c     ****   /* USER CODE BEGIN ADC2_MspDeInit 1 */
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 15
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 15
 
 
  274:Src/adc.c     **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  541 0032 23F40073 		bic	r3, r3, #512
  542 0036 5364     		str	r3, [r2, #68]
  271:Src/adc.c     **** 
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 16
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 16
 
 
  543              		.loc 1 271 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  308:Src/adc.c     **** void update_adc1_data( void ){
  587              		.loc 1 308 0
  588              		.cfi_startproc
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 17
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 17
 
 
  589              		@ args = 0, pretend = 0, frame = 32
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  635              	.LVL37:
  317:Src/adc.c     ****     HAL_ADC_Start( &hadc1 );     // ad convert start
  636              		.loc 1 317 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 18
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 18
 
 
  637 0038 2846     		mov	r0, r5
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  687              		.fpu fpv4-sp-d16
  689              	update_adc2_data:
  690              	.LFB132:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 19
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 19
 
 
  323:Src/adc.c     **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  726 0020 80B2     		uxth	r0, r0
  727 0022 1C4B     		ldr	r3, .L65+8
  728 0024 1880     		strh	r0, [r3]	@ movhi
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 20
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 20
 
 
  342:Src/adc.c     ****       if ( front_sensor[0] < 2000 ) front_sensor[0] = 2000;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  345:Src/adc.c     ****     } else {
  346:Src/adc.c     ****       batt_analog = HAL_ADC_GetValue( &hadc2 );
  773              		.loc 1 346 0
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 21
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 21
 
 
  774 006c 0848     		ldr	r0, .L65+4
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  357:Src/adc.c     **** void update_adc3_data( void ){
  819              		.loc 1 357 0
  820              		.cfi_startproc
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 22
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 22
 
 
  821              		@ args = 0, pretend = 0, frame = 32
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  365:Src/adc.c     ****     HAL_ADC_Start( &hadc3 );
  868              		.loc 1 365 0
  869 0038 2846     		mov	r0, r5
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 23
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 23
 
 
  870 003a FFF7FEFF 		bl	HAL_ADC_Start
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  920              		.align	2
  921              		.set	.LANCHOR0,. + 0
  922              	.LC0:
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 24
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 24
 
 
  923 0000 00000000 		.word	0
@@ -1403,58 +1403,59 @@ ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 1
  940      6300
  941              		.text
  942              	.Letext0:
- 943              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 943              		.file 2 "Inc/main.h"
  944              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
- 945              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 946              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 947              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h"
- 948              		.file 7 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 945              		.file 4 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 946              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
+ 947              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 948              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h"
  949              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
- 950              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\lib\\gcc\\arm-none-eabi
- 951              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include
- 952              		.file 11 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
- 953              		.file 12 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 954              		.file 13 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
- 955              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
- 956              		.file 15 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
- 957              		.file 16 "Inc/adc.h"
-ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s 			page 25
+ 950              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include\
+ 951              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\lib\\gcc\\arm-none-eab
+ 952              		.file 11 "c:\\program files (x86)\\gnu tools arm embedded\\7 2017-q4-major\\arm-none-eabi\\include
+ 953              		.file 12 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
+ 954              		.file 13 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 955              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ 956              		.file 15 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ 957              		.file 16 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
+ 958              		.file 17 "Inc/adc.h"
+ARM GAS  C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 adc.c
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:18     .text.MX_ADC1_Init:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:25     .text.MX_ADC1_Init:00000000 MX_ADC1_Init
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:117    .text.MX_ADC1_Init:00000060 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:18     .text.MX_ADC1_Init:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:25     .text.MX_ADC1_Init:00000000 MX_ADC1_Init
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:117    .text.MX_ADC1_Init:00000060 $d
                             *COM*:00000048 hadc1
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:125    .text.MX_ADC2_Init:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:132    .text.MX_ADC2_Init:00000000 MX_ADC2_Init
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:223    .text.MX_ADC2_Init:00000060 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:125    .text.MX_ADC2_Init:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:132    .text.MX_ADC2_Init:00000000 MX_ADC2_Init
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:223    .text.MX_ADC2_Init:00000060 $d
                             *COM*:00000048 hadc2
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:231    .text.MX_ADC3_Init:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:238    .text.MX_ADC3_Init:00000000 MX_ADC3_Init
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:329    .text.MX_ADC3_Init:00000060 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:231    .text.MX_ADC3_Init:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:238    .text.MX_ADC3_Init:00000000 MX_ADC3_Init
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:329    .text.MX_ADC3_Init:00000060 $d
                             *COM*:00000048 hadc3
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:337    .text.HAL_ADC_MspInit:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:344    .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:476    .text.HAL_ADC_MspInit:000000a4 $d
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:486    .text.HAL_ADC_MspDeInit:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:493    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:568    .text.HAL_ADC_MspDeInit:00000058 $d
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:578    .text.update_adc1_data:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:585    .text.update_adc1_data:00000000 update_adc1_data
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:675    .text.update_adc1_data:00000070 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:337    .text.HAL_ADC_MspInit:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:344    .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:476    .text.HAL_ADC_MspInit:000000a4 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:486    .text.HAL_ADC_MspDeInit:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:493    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:568    .text.HAL_ADC_MspDeInit:00000058 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:578    .text.update_adc1_data:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:585    .text.update_adc1_data:00000000 update_adc1_data
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:675    .text.update_adc1_data:00000070 $d
                             *COM*:00000012 front_sensor
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:682    .text.update_adc2_data:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:689    .text.update_adc2_data:00000000 update_adc2_data
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:801    .text.update_adc2_data:0000008c $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:682    .text.update_adc2_data:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:689    .text.update_adc2_data:00000000 update_adc2_data
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:801    .text.update_adc2_data:0000008c $d
                             *COM*:00000002 batt_analog
                             *COM*:00000004 side_sensor
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:810    .text.update_adc3_data:00000000 $t
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:817    .text.update_adc3_data:00000000 update_adc3_data
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:907    .text.update_adc3_data:00000070 $d
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:920    .rodata:00000000 $d
-C:\Users\kotaro\AppData\Local\Temp\ccosbLV7.s:938    .rodata.MX_ADC1_Init.str1.4:00000000 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:810    .text.update_adc3_data:00000000 $t
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:817    .text.update_adc3_data:00000000 update_adc3_data
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:907    .text.update_adc3_data:00000070 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:920    .rodata:00000000 $d
+C:\Users\kotaro\AppData\Local\Temp\ccxWUlqy.s:938    .rodata.MX_ADC1_Init.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_ADC_Init

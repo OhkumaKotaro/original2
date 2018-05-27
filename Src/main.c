@@ -60,7 +60,9 @@ void __io_putchar(uint8_t ch) {
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
+// encodr
 
+ENC enc;
 /* USER CODE BEGIN PV */
 
 /* Private variables ---------------------------------------------------------*/
@@ -122,22 +124,26 @@ int main(void)
 
 
   //test ktr_LED()
-  ktr_LED(1,Cyan);
+  control_LED(1,Cyan);
   //end test ktr_LED()
 
   //test ktr_buzzer()
-  ktr_Buzzer(D,800);
+  Buzzer(D,800);
   HAL_Delay(500);
-  ktr_Buzzer(NORMAL,0);
+  Buzzer(NORMAL,0);
   //end test ktr_buzzer()
 
 
   //test void ktr_set_l3gd20()
-  ktr_set_l3gd20();
+  set_l3gd20();
   HAL_TIM_Base_Start_IT( &htim5 );  // TIM5_IRQHandler 250us
   //end test void ktr_set_l3gd20()
 
-  //HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);//enable ktr_Contlor_motor
+  //setup encoder
+  setup_encoder();
+
+
+  //HAL_GPIO_WritePin(stby_GPIO_Port,stby_Pin,GPIO_PIN_SET);//enable Contlor_motor
   setbuf(stdout, NULL); //printf use
 
   /* USER CODE END 2 */
@@ -146,13 +152,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-   //test ktr_get_gyro()
-   //printf( "%04d\r",ktr_get_gyro() );
-   //end test ktr_get_gyro()
+   //battery check
+   battery_check();
 
    //test
-   //printf("gyro:%04d batt:%04d side0:%04d side1:%04d\r",ktr_get_gyro(),batt_analog,side_sensor[0],side_sensor[1]);
-   printf( "gyro %04d,sensor side [0] : %04d, side [1]: %04d,batt %04d\r",ktr_get_gyro(),side_sensor[0], side_sensor[1],batt_analog );
+   //printf( "gyro %04d,sensor side [0] : %04d, side [1]: %04d,batt %04d\r",get_gyro(),side_sensor[0], side_sensor[1],batt_analog );
+   printf("l_en.now:%d,r_en:%d l_en:%d,r_en:%d , batt %04d\r",enc.l_now,enc.r_now,enc.l,enc.r,batt_analog);
    //end test
 
   /* USER CODE END WHILE */
@@ -231,7 +236,7 @@ void SystemClock_Config(void)
  * coution : on stby pin !
  **************************************************************/
 
-void ktr_Control_motor(int r_accel,int l_accel){
+void Control_motor(int r_accel,int l_accel){
   //ringht accel
   if(r_accel>0){
     HAL_GPIO_WritePin(ain1_GPIO_Port,ain1_Pin,GPIO_PIN_SET);
@@ -253,10 +258,22 @@ void ktr_Control_motor(int r_accel,int l_accel){
   }
 
   //set pwm
-  ktr_Motor_pwm(r_accel,l_accel);
+  Motor_pwm(r_accel,l_accel);
 }
 
-//end oh ktr_Control_motor()
+//end Control_motor()
+
+
+/**********************************
+ * effect : battery check
+ **************************************/
+void battery_check(void){
+  if(batt_analog<1590){
+    control_LED(ON,Red);
+  }else{
+    control_LED(ON,Green);
+  }
+}
 
 
 /* USER CODE END 4 */

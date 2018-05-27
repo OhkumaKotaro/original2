@@ -40,7 +40,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "gpio.h"
 /* USER CODE BEGIN 0 */
-
+#include "stm32f4xx_hal_gpio.h"
 /* USER CODE END 0 */
 
 /*----------------------------------------------------------------------------*/
@@ -131,7 +131,7 @@ void MX_GPIO_Init(void)
 /*efect:light up led
   num:number of led
   state:off,on or colore*/
-void ktr_LED(int num ,int state){
+void control_LED(int num ,int state){
   switch(num){
     case 1:
     switch(state){

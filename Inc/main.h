@@ -91,7 +91,25 @@
 
 /* USER CODE BEGIN Private defines */
 
-void ktr_Control_motor(int r_accel,int l_accel);
+void Control_motor(int r_accel,int l_accel);
+void battery_check(void);
+
+// encoder
+typedef struct {
+  unsigned int pattern;
+  unsigned int rp_pattern; 
+  unsigned int l;
+  unsigned int r;
+  unsigned int goal;
+  unsigned int l_now;
+  unsigned int r_now;
+  unsigned int center_now;
+  unsigned int center_total;
+  unsigned int cr;
+  unsigned int rp;
+}ENC;
+
+extern ENC enc;
 
 /* USER CODE END Private defines */
 

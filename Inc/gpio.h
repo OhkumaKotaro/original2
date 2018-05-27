@@ -69,8 +69,8 @@
 void MX_GPIO_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-void ktr_LED(int num ,int state);
-int ktr_SW(int num);
+void control_LED(int num ,int state);
+int contorol_SW(int num);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

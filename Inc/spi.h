@@ -68,7 +68,7 @@ extern SPI_HandleTypeDef hspi2;
 #define L3GD20_500dps   0x10
 #define L3GD20_2000dps  0x20
 
-#define SETTING         0x80  //0b1000 0000 8bitの上位bitを立てるといい
+#define SETTING         0x80  //0b1000 0000 8bitの上位bitを立てると?��??��?
 
 
 /* USER CODE END Private defines */
@@ -82,8 +82,8 @@ void MX_SPI2_Init(void);
 uint8_t read_byte(uint8_t reg);
 int16_t read_shift_byte(uint8_t reg);
 void write_byte( uint8_t reg,uint8_t val);
-void ktr_set_l3gd20(void);
-int ktr_get_gyro(void);
+void set_l3gd20(void);
+int get_gyro(void);
 
 /* USER CODE END Prototypes */
 

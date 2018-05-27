@@ -45,6 +45,8 @@
 /* USER CODE BEGIN 0 */
 TIM_MasterConfigTypeDef sMasterConfig;
 TIM_OC_InitTypeDef sConfigOC;
+//for enoder
+TIM_Encoder_InitTypeDef sConfig;
 /* USER CODE END 0 */
 
 TIM_HandleTypeDef htim1;
@@ -482,7 +484,7 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
  * period : frequency
  * pwm : volume
 *************************************************/
-void ktr_Buzzer(int period,int pwm){
+void Buzzer(int period,int pwm){
   htim1.Instance = TIM1;
   htim1.Init.Prescaler = period;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
@@ -518,7 +520,7 @@ void ktr_Buzzer(int period,int pwm){
  * pwm_right/left : motor power
  ***********************************************************************/
 
-void ktr_Motor_pwm(int right_pwm,int left_pwm){
+void Motor_pwm(int right_pwm,int left_pwm){
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
@@ -546,8 +548,51 @@ void ktr_Motor_pwm(int right_pwm,int left_pwm){
 	}
 }
 
-//end of ktr_Motor
+//encoder
+void setup_encoder(void){
+  //left
+  /*if(HAL_TIM_Encoder_Init(&htim3,&sConfig)!=HAL_OK){
+    Error_Handler();
+  }*/
+  HAL_TIM_Encoder_Start(&htim3,TIM_CHANNEL_ALL);
+  
+  //right
+  /*if(HAL_TIM_Encoder_Init(&htim4,&sConfig)!=HAL_OK){
+    Error_Handler();
+  }*/
+  HAL_TIM_Encoder_Start(&htim4,TIM_CHANNEL_ALL);
+  
+}
 
+
+void update_encoder( void ){
+  int16_t enc_l_buff = TIM3->CNT;
+  int16_t enc_r_buff = TIM4->CNT;
+  TIM3->CNT = 0;
+  TIM4->CNT = 0;
+
+  /*if( enc_l_buff > 32767 ){//反転
+    enc.l_now = -1 *(int16_t)enc_l_buff;
+  } else {*/
+    enc.l_now = enc_l_buff;
+  //}
+  
+  /*if ( enc_r_buff > 32767 ){
+    enc.r_now = -1 * (int16_t)enc_r_buff;
+  } else {*/
+    enc.r_now = enc_r_buff;
+  //}
+
+  enc.center_now = ( enc.l_now + enc.r_now )/2;
+  enc.center_total += enc.center_now;
+  enc.l += enc.l_now;
+  enc.r += enc.r_now;
+  enc.goal  += enc.center_now;
+  enc.cr += enc.center_now;
+  enc.pattern += enc.center_now;
+  enc.rp += enc.center_now;
+  enc.rp_pattern += enc.center_now;
+}
 
 /* USER CODE END 1 */
 
